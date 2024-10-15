@@ -85,7 +85,7 @@ This book inspires me by exploring the relationship between money and human beha
 I’m always open to networking and collaboration. Feel free to reach out!
 
 <div align="center">
-    <a href="its.laiba.shahab@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Gmail Logo"/></a>
+    <a href="mailto:its.laiba.shahab@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Gmail Logo"/></a>
     <a href="https://www.linkedin.com/in/laiba-shahab/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn Logo"/></a>
 </div>
 
