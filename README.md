@@ -33,7 +33,7 @@ I’m on a mission to explore the realms of **AI, Machine Learning, and Full Sta
 I’m currently developing an e-commerce website using Django, focusing on delivering a seamless user experience and robust backend management.
 
 #### Progress:
-![E-commerce Progress](https://progress-bar.dev/50) <!-- Use the progress-bar.dev service to generate a visual progress bar -->
+![E-commerce Progress](https://progress-bar.dev/50) <!-- Update the percentage as needed -->
 
 ---
 
@@ -64,18 +64,9 @@ I am excited to dive deeper into the following areas:
 - **Progress**: 3% complete
 
 #### Reading Progress:
-![Book Progress](https://progress-bar.dev/3) <!-- Use the progress-bar.dev service to generate a visual progress bar -->
+![Book Progress](https://progress-bar.dev/3) <!-- Update the percentage as you progress -->
 
 This book inspires me by exploring the relationship between money and human behavior.
-
----
-
-## 🤝 Let’s Connect!
-
-I’m always open to networking and collaboration. Feel free to reach out!
-
-- 📧 **Email:** [your-email@example.com](mailto:your-email@example.com) <!-- Replace with your email -->
-- 💼 **LinkedIn:** [Laiba Shahab](https://www.linkedin.com/in/your-linkedin-profile/) <!-- Replace with your LinkedIn URL -->
 
 ---
 
@@ -89,5 +80,13 @@ I’m always open to networking and collaboration. Feel free to reach out!
 
 ---
 
-Thanks for stopping by my profile! Explore my repositories and let's create something amazing together! 🚀
+## 🤝 Let’s Connect!
 
+I’m always open to networking and collaboration. Feel free to reach out!
+
+[![Email](https://img.icons8.com/ios-filled/50/000000/email.png)](mailto:your-email@example.com) <!-- Replace with your email -->
+[![LinkedIn](https://img.icons8.com/ios-filled/50/000000/linkedin.png)](https://www.linkedin.com/in/your-linkedin-profile/) <!-- Replace with your LinkedIn URL -->
+
+---
+
+Thanks for stopping by my profile! Explore my repositories and let's create something amazing together! 🚀
