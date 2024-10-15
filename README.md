@@ -33,7 +33,7 @@ I’m on a mission to explore the realms of **AI, Machine Learning, and Full Sta
 I’m currently developing an e-commerce website using Django, focusing on delivering a seamless user experience and robust backend management.
 
 #### Progress:
-![E-commerce Progress](https://progress-bar.dev/50) <!-- Update the percentage as needed -->
+![E-commerce Progress](https://img.shields.io/badge/Progress-50%25-brightgreen) <!-- Update the percentage as needed -->
 
 ---
 
@@ -64,7 +64,7 @@ I am excited to dive deeper into the following areas:
 - **Progress**: 3% complete
 
 #### Reading Progress:
-![Book Progress](https://progress-bar.dev/3) <!-- Update the percentage as you progress -->
+![Book Progress](https://img.shields.io/badge/Progress-3%25-yellow) <!-- Update the percentage as you progress -->
 
 This book inspires me by exploring the relationship between money and human behavior.
 
@@ -84,8 +84,10 @@ This book inspires me by exploring the relationship between money and human beha
 
 I’m always open to networking and collaboration. Feel free to reach out!
 
-[![Email](https://img.icons8.com/ios-filled/50/000000/email.png)](mailto:your-email@example.com) <!-- Replace with your email -->
-[![LinkedIn](https://img.icons8.com/ios-filled/50/000000/linkedin.png)](https://www.linkedin.com/in/your-linkedin-profile/) <!-- Replace with your LinkedIn URL -->
+<div align="center">
+    <a href="mailto:your-email@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Gmail Logo"/></a>
+    <a href="https://www.linkedin.com/in/your-linkedin-profile/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn Logo"/></a>
+</div>
 
 ---
 
