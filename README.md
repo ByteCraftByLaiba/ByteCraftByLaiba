@@ -1,10 +1,8 @@
 # 👋 Hello, I'm Laiba Shahab!
 
-![Profile Banner](https://example.com/your-banner-image.jpg) 
+![Profile Banner](https://via.placeholder.com/1200x300.png?text=Profile+Banner) 
 
 Welcome to my corner of the coding world! I’m Laiba, a tech enthusiast driven by an insatiable curiosity and a relentless pursuit of knowledge. I see programming not just as a skill but as a powerful tool for creativity and problem-solving. My journey is fueled by a passion for innovation and a belief in the transformative power of technology.
-
-I’m on a mission to explore the realms of **AI, Machine Learning, and Full Stack Development**, where I aspire to build solutions that not only function well but also resonate with human experiences. With every line of code, I aim to bridge the gap between technology and humanity, creating meaningful connections through my work.
 
 ---
 
@@ -14,7 +12,7 @@ I’m on a mission to explore the realms of **AI, Machine Learning, and Full Sta
 - **Current Focus**: Deepening my skills in **AI, Machine Learning, Full Stack Development, and Cybersecurity**.
 - **Community Engagement**: I actively participate in hackathons, where I thrive on collaboration and the thrill of solving complex challenges alongside fellow tech enthusiasts.
 
-![Tech Enthusiast](https://example.com/tech-image.jpg) 
+![Tech Enthusiast](https://via.placeholder.com/600x300.png?text=Tech+Enthusiast)
 
 ---
 
@@ -76,7 +74,7 @@ This book inspires me by exploring the relationship between money and human beha
 - I’m passionate about promoting sustainable technology.
 - I enjoy learning from others and sharing knowledge within the tech community.
 
-![Coding in Action](https://example.com/coding-image.jpg) 
+![Coding in Action](https://via.placeholder.com/600x300.png?text=Coding+in+Action) 
 
 ---
 
