@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Laiba Shahab!
 
-![Profile Banner](https://example.com/your-banner-image.jpg) <!-- Replace with an actual image link -->
+![Profile Banner](https://example.com/your-banner-image.jpg) 
 
 Welcome to my corner of the coding world! I’m Laiba, a tech enthusiast driven by an insatiable curiosity and a relentless pursuit of knowledge. I see programming not just as a skill but as a powerful tool for creativity and problem-solving. My journey is fueled by a passion for innovation and a belief in the transformative power of technology.
 
@@ -14,7 +14,7 @@ I’m on a mission to explore the realms of **AI, Machine Learning, and Full Sta
 - **Current Focus**: Deepening my skills in **AI, Machine Learning, Full Stack Development, and Cybersecurity**.
 - **Community Engagement**: I actively participate in hackathons, where I thrive on collaboration and the thrill of solving complex challenges alongside fellow tech enthusiasts.
 
-![Tech Enthusiast](https://example.com/tech-image.jpg) <!-- Replace with an actual image link -->
+![Tech Enthusiast](https://example.com/tech-image.jpg) 
 
 ---
 
@@ -33,7 +33,7 @@ I’m on a mission to explore the realms of **AI, Machine Learning, and Full Sta
 I’m currently developing an e-commerce website using Django, focusing on delivering a seamless user experience and robust backend management.
 
 #### Progress:
-![E-commerce Progress](https://img.shields.io/badge/Progress-50%25-brightgreen) <!-- Update the percentage as needed -->
+![E-commerce Progress](https://img.shields.io/badge/Progress-50%25-brightgreen) 
 
 ---
 
@@ -64,7 +64,7 @@ I am excited to dive deeper into the following areas:
 - **Progress**: 3% complete
 
 #### Reading Progress:
-![Book Progress](https://img.shields.io/badge/Progress-3%25-yellow) <!-- Update the percentage as you progress -->
+![Book Progress](https://img.shields.io/badge/Progress-3%25-yellow) 
 
 This book inspires me by exploring the relationship between money and human behavior.
 
@@ -76,7 +76,7 @@ This book inspires me by exploring the relationship between money and human beha
 - I’m passionate about promoting sustainable technology.
 - I enjoy learning from others and sharing knowledge within the tech community.
 
-![Coding in Action](https://example.com/coding-image.jpg) <!-- Replace with an actual image link -->
+![Coding in Action](https://example.com/coding-image.jpg) 
 
 ---
 
@@ -85,8 +85,8 @@ This book inspires me by exploring the relationship between money and human beha
 I’m always open to networking and collaboration. Feel free to reach out!
 
 <div align="center">
-    <a href="mailto:your-email@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Gmail Logo"/></a>
-    <a href="https://www.linkedin.com/in/your-linkedin-profile/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn Logo"/></a>
+    <a href="its.laiba.shahab@gmail.com"><img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Gmail Logo"/></a>
+    <a href="https://www.linkedin.com/in/laiba-shahab/"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn Logo"/></a>
 </div>
 
 ---
