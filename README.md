@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Laiba Shahab!
 
-![Profile Banner](https://via.placeholder.com/1200x300.png?text=Profile+Banner) 
+![Profile Banner](https://github.com/ByteCraftByLaiba/ByteCraftByLaiba/blob/main/Profile-Banner.gif)
 
 Welcome to my corner of the coding world! I’m Laiba, a tech enthusiast driven by an insatiable curiosity and a relentless pursuit of knowledge. I see programming not just as a skill but as a powerful tool for creativity and problem-solving. My journey is fueled by a passion for innovation and a belief in the transformative power of technology.
 
@@ -11,8 +11,6 @@ Welcome to my corner of the coding world! I’m Laiba, a tech enthusiast driven 
 - **Self-Learner**: I embrace the art of learning, constantly evolving with the rapid pace of technological advancements.
 - **Current Focus**: Deepening my skills in **AI, Machine Learning, Full Stack Development, and Cybersecurity**.
 - **Community Engagement**: I actively participate in hackathons, where I thrive on collaboration and the thrill of solving complex challenges alongside fellow tech enthusiasts.
-
-![Tech Enthusiast](https://via.placeholder.com/600x300.png?text=Tech+Enthusiast)
 
 ---
 
@@ -73,8 +71,6 @@ This book inspires me by exploring the relationship between money and human beha
 - I love tackling complex problems and view them as opportunities to learn.
 - I’m passionate about promoting sustainable technology.
 - I enjoy learning from others and sharing knowledge within the tech community.
-
-![Coding in Action](https://via.placeholder.com/600x300.png?text=Coding+in+Action) 
 
 ---
 
