@@ -22,7 +22,7 @@
 
 AI/ML Engineer. Backend Developer. Both.
 
-LLM systems, agentic workflows, RAG pipelines, production APIs — full stack, no disclaimers. 
+LLM systems, agentic workflows, RAG pipelines, production APIs — full stack, no disclaimers. I use AI tools openly, proudly, and responsibly. No shame here.
 
 <br/><br/><br/>
 
