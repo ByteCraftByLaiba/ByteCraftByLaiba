@@ -1,38 +1,30 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=header" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=header" width="100%"/>
 </div>
 
-<div align="center">
+```python
+# laiba@bytecraft ~ %  whoami
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=900&color=A855F7&center=true&vCenter=true&width=560&lines=AI+engineer.+Backend+developer.+Both.;I+build+things+that+work+then+make+them+faster.;RAG+pipelines+%7C+Agentic+AI+%7C+FastAPI;Google+Asia-Pacific+Scholar+2024+%F0%9F%8C%8F;I+did+forensics+on+a+1967+bigfoot+film.)
-
-</div>
-
-<br/>
-
-<div align="center">
-
-### 👾 open a terminal. say hello.
-
-[![terminal](https://img.shields.io/badge/launch_terminal-►_run_whoami-a855f7?style=for-the-badge&logo=gnometerminal&logoColor=white)](https://bytecraftbylaiba.github.io/ByteCraftByLaiba/terminal.html)
-
-*type `whoami` · `skills` · `ai --stance` · `quote`*
-
-</div>
+{
+  "name"      : "Laiba Shahab",
+  "role"      : ["AI/ML Engineer", "Backend Developer"],
+  "location"  : "Lahore, Pakistan  ·  open to remote",
+  "medals"    : ["Gold Medalist · 4.0 GPA", "Google Asia-Pacific Scholar 2024"],
+  "uses_ai"   : "openly · proudly · responsibly",
+  "fun_fact"  : "applied forensic deep learning to a 1967 bigfoot film. not elaborating.",
+  "status"    : "shipping things that work, then making them faster"
+}
+```
 
 ---
 
 <img align="right" width="42%" src="https://github-readme-stats.vercel.app/api?username=ByteCraftByLaiba&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_title=true"/>
 
-**AI/ML Engineer. Backend Developer. Both.**
+AI/ML Engineer. Backend Developer. Both.
 
-I work across the full AI stack — from wrangling LLMs and building RAG pipelines to shipping production REST APIs and keeping databases from falling over.
+LLM systems, agentic workflows, RAG pipelines, production APIs — full stack, no disclaimers. I use AI tools openly, proudly, and responsibly. No shame here.
 
-Gold Medalist · 4.0 GPA · Google Asia-Pacific Scholar 2024
-
-I use AI tools. Openly. Proudly. Responsibly.
-
-<br/><br/>
+<br/><br/><br/>
 
 ---
 
@@ -73,8 +65,11 @@ I use AI tools. Openly. Proudly. Responsibly.
 
 <div align="center">
 
-> *"I didn't come this far to only come this far.*
-> *Also I graduated with a 4.0, so the bar is literally the ceiling."*
+**have you calculated your success percentage today?**
+
+`(prayers completed × 100 ÷ 5) + bonus points for every nafil`
+
+*you can create a perfect score. every single day.*
 
 </div>
 
