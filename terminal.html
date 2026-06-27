@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>laiba@bytecraft ~ terminal</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #0d0d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'JetBrains Mono', monospace;
+    padding: 20px;
+  }
+
+  .window {
+    width: 100%;
+    max-width: 720px;
+    background: #111;
+    border-radius: 12px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.8), 0 0 0 1px #222;
+    overflow: hidden;
+  }
+
+  .titlebar {
+    background: #1a1a1a;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #222;
+  }
+
+  .dot { width: 12px; height: 12px; border-radius: 50%; }
+  .dot.red    { background: #ff5f57; }
+  .dot.yellow { background: #ffbd2e; }
+  .dot.green  { background: #28c840; }
+
+  .title {
+    flex: 1;
+    text-align: center;
+    color: #555;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+  }
+
+  .screen {
+    padding: 20px;
+    min-height: 420px;
+    max-height: 70vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+  }
+
+  .screen::-webkit-scrollbar { width: 4px; }
+  .screen::-webkit-scrollbar-track { background: transparent; }
+  .screen::-webkit-scrollbar-thumb { background: #333; border-radius: 2px; }
+
+  .boot {
+    margin-bottom: 20px;
+  }
+
+  .boot-line {
+    color: #555;
+    font-size: 12px;
+    line-height: 1.8;
+    opacity: 0;
+    animation: fadein 0.1s forwards;
+  }
+
+  .prompt-line {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 4px;
+  }
+
+  .prompt { color: #a855f7; font-size: 13px; white-space: nowrap; }
+  .cmd    { color: #e2e2e2; font-size: 13px; }
+
+  .output {
+    margin: 8px 0 16px 0;
+    font-size: 13px;
+    line-height: 1.9;
+  }
+
+  .output .key   { color: #a855f7; }
+  .output .val   { color: #e2e2e2; }
+  .output .str   { color: #86efac; }
+  .output .arr   { color: #67e8f9; }
+  .output .dim   { color: #555; }
+  .output .head  { color: #fbbf24; font-weight: 700; }
+  .output .tag   { color: #f472b6; }
+  .output .err   { color: #f87171; }
+  .output .link  { color: #60a5fa; text-decoration: underline; cursor: pointer; }
+
+  .input-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+    padding-top: 4px;
+  }
+
+  .input-prompt { color: #a855f7; font-size: 13px; white-space: nowrap; }
+
+  #cmd-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #e2e2e2;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    flex: 1;
+    caret-color: #a855f7;
+  }
+
+  .hint {
+    margin-top: 16px;
+    padding: 12px;
+    border: 1px solid #222;
+    border-radius: 6px;
+    font-size: 11px;
+    color: #444;
+    line-height: 1.8;
+  }
+
+  .hint span { color: #a855f7; cursor: pointer; }
+  .hint span:hover { color: #c084fc; }
+
+  .cursor {
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    background: #a855f7;
+    vertical-align: middle;
+    animation: blink 1s step-end infinite;
+    margin-left: 1px;
+  }
+
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+  @keyframes fadein { to { opacity: 1; } }
+
+  .typing { overflow: hidden; white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<div class="window">
+  <div class="titlebar">
+    <div class="dot red"></div>
+    <div class="dot yellow"></div>
+    <div class="dot green"></div>
+    <div class="title">laiba@bytecraft — zsh</div>
+  </div>
+
+  <div class="screen" id="screen">
+    <div class="boot" id="boot"></div>
+    <div id="history"></div>
+    <div class="input-row" id="input-row" style="display:none">
+      <span class="input-prompt">laiba@bytecraft ~ %</span>
+      <input id="cmd-input" autofocus autocomplete="off" spellcheck="false" placeholder="type a command..."/>
+    </div>
+    <div class="hint" id="hint" style="display:none">
+      try: <span onclick="run('whoami')">whoami</span> &nbsp;·&nbsp;
+      <span onclick="run('skills')">skills</span> &nbsp;·&nbsp;
+      <span onclick="run('ai --stance')">ai --stance</span> &nbsp;·&nbsp;
+      <span onclick="run('contact')">contact</span> &nbsp;·&nbsp;
+      <span onclick="run('help')">help</span>
+    </div>
+  </div>
+</div>
+
+<script>
+const commands = {
+  whoami: () => `
+<span class="head">laiba shahab</span>
+
+<span class="key">role      </span> <span class="str">"AI/ML Engineer + Backend Developer"</span>
+<span class="key">location  </span> <span class="str">"Lahore, Pakistan"</span>
+<span class="key">status    </span> <span class="str">"building things that work, then making them faster"</span>
+<span class="key">medals    </span> <span class="arr">["Gold Medalist · 4.0 GPA · Ranked 1st", "Google Asia-Pacific Scholar 2024"]</span>
+<span class="key">fun_fact  </span> <span class="str">"applied forensic deep learning to a 1967 bigfoot film. not kidding."</span>
+`,
+
+  skills: () => `
+<span class="head">stack.json</span>
+
+<span class="tag">AI / GenAI</span>
+<span class="dim">  LangChain · LangGraph · RAG · OpenAI API · FAISS</span>
+<span class="dim">  HuggingFace · Fine-tuning · Prompt Engineering · NLP</span>
+
+<span class="tag">ML / Deep Learning</span>
+<span class="dim">  PyTorch · TensorFlow · scikit-learn · XGBoost</span>
+<span class="dim">  LightGBM · CatBoost · LSTM · SHAP · MLOps · AutoML</span>
+
+<span class="tag">Backend</span>
+<span class="dim">  FastAPI · Django · Flask · REST APIs · WebSockets</span>
+<span class="dim">  Async Python · JWT · RBAC · Pydantic · Socket.IO</span>
+
+<span class="tag">Cloud / DevOps</span>
+<span class="dim">  AWS (EC2, S3, RDS) · Docker · GitHub Actions · CI/CD</span>
+
+<span class="tag">Databases</span>
+<span class="dim">  PostgreSQL · MongoDB · MySQL · Redis · FAISS Vector DB</span>
+
+<span class="tag">Frontend</span>
+<span class="dim">  React.js · Next.js · Tailwind CSS · Streamlit</span>
+`,
+
+  'ai --stance': () => `
+<span class="head">~/opinions/ai.md</span>
+
+I build with AI every day.
+I use it to learn faster, ship better, debug smarter.
+
+I don't hide that — I think AI shaming is just gatekeeping
+dressed up as a moral stance.
+
+What matters is <span class="str">what you build</span> and <span class="str">whether you understand it.</span>
+Responsible use. Transparent use. Proud use.
+
+<span class="dim">-- laiba</span>
+`,
+
+  contact: () => `
+<span class="head">./reach_me.sh</span>
+
+<span class="key">linkedin  </span> <span class="link" onclick="window.open('https://linkedin.com/in/laiba-shahab','_blank')">linkedin.com/in/laiba-shahab</span>
+<span class="key">email     </span> <span class="link" onclick="window.open('mailto:its.laiba.shahab@gmail.com')">its.laiba.shahab@gmail.com</span>
+<span class="key">github    </span> <span class="link" onclick="window.open('https://github.com/ByteCraftByLaiba','_blank')">github.com/ByteCraftByLaiba</span>
+<span class="key">open to   </span> <span class="str">"remote roles · collabs · interesting problems"</span>
+`,
+
+  quote: () => `
+<span class="str">"I didn't come this far to only come this far.</span>
+<span class="str"> Also I graduated with a 4.0, so the bar is literally the ceiling."</span>
+
+<span class="dim">  — laiba shahab, unbothered</span>
+`,
+
+  help: () => `
+<span class="head">available commands</span>
+
+<span class="key">whoami       </span> <span class="dim">who is this person</span>
+<span class="key">skills       </span> <span class="dim">full tech stack</span>
+<span class="key">ai --stance  </span> <span class="dim">where I stand on AI use</span>
+<span class="key">contact      </span> <span class="dim">how to reach me</span>
+<span class="key">quote        </span> <span class="dim">words to live by</span>
+<span class="key">clear        </span> <span class="dim">clean slate</span>
+<span class="key">help         </span> <span class="dim">you already know</span>
+`,
+
+  clear: () => '__clear__',
+};
+
+const boot = [
+  'ByteCraft OS v2.6 — initializing...',
+  'loading personality modules.............. ok',
+  'mounting caffeine dependencies........... ok',
+  'calibrating diva energy.................. ok',
+  '─────────────────────────────────────────',
+  'welcome. type  help  to get started.',
+];
+
+const history = [];
+
+function $(id) { return document.getElementById(id); }
+
+async function runBoot() {
+  const el = $('boot');
+  for (let i = 0; i < boot.length; i++) {
+    await delay(i === 0 ? 200 : 120);
+    const line = document.createElement('div');
+    line.className = 'boot-line';
+    line.style.animationDelay = '0s';
+    line.textContent = boot[i];
+    el.appendChild(line);
+  }
+  await delay(300);
+  $('input-row').style.display = 'flex';
+  $('hint').style.display = 'block';
+  $('cmd-input').focus();
+  scrollBottom();
+}
+
+function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+function scrollBottom() {
+  const s = $('screen');
+  s.scrollTop = s.scrollHeight;
+}
+
+function appendToHistory(cmd, output) {
+  const hist = $('history');
+
+  const promptLine = document.createElement('div');
+  promptLine.className = 'prompt-line';
+  promptLine.innerHTML = `<span class="prompt">laiba@bytecraft ~ %</span><span class="cmd"> ${escapeHtml(cmd)}</span>`;
+  hist.appendChild(promptLine);
+
+  if (output) {
+    const out = document.createElement('div');
+    out.className = 'output';
+    out.innerHTML = output;
+    hist.appendChild(out);
+  }
+
+  scrollBottom();
+}
+
+function escapeHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function run(cmd) {
+  cmd = cmd.trim();
+  if (!cmd) return;
+
+  const fn = commands[cmd];
+
+  if (cmd === 'clear') {
+    $('history').innerHTML = '';
+    $('boot').innerHTML = '';
+    return;
+  }
+
+  if (!fn) {
+    appendToHistory(cmd, `<span class="err">command not found: ${escapeHtml(cmd)}</span>  <span class="dim">· try 'help'</span>`);
+    return;
+  }
+
+  appendToHistory(cmd, fn());
+}
+
+$('cmd-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    const val = $('cmd-input').value;
+    $('cmd-input').value = '';
+    run(val);
+  }
+});
+
+// clickable hints
+function runHint(cmd) { run(cmd); }
+
+runBoot();
+</script>
+</body>
+</html>
