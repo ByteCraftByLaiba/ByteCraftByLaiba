@@ -1,366 +1,430 @@
 <div align="center">
-
-![banner](https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=200&section=header&text=Laiba%20Shahab&fontSize=48&fontColor=e6edf3&fontAlignY=55&fontAlign=50&desc=Backend%20%26%20AI%20Systems%20Engineer&descAlignY=75&descAlign=50&descColor=8b949e&descSize=16&animation=fadeIn)
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=4000&pause=1000&color=888888&center=true&vCenter=true&width=600&lines=I+turn+chaos+into+systems.;I+don%27t+chase+technologies.+I+chase+problems.;The+technologies+usually+follow." alt="Typing SVG" />
-
-<br/><br/>
-
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td align="center" width="180">
-<code>4.00 / 4.00</code><br/>
-<sub>CGPA · Gold Medalist</sub>
-</td>
-<td align="center" width="20"><sub>·</sub></td>
-<td align="center" width="180">
-<code>Rank #1</code><br/>
-<sub>Department of CS · UCP</sub>
-</td>
-<td align="center" width="20"><sub>·</sub></td>
-<td align="center" width="180">
-<code>Top 3</code><br/>
-<sub>Google APAC Scholar · Asia-Pacific</sub>
-</td>
-</tr>
-</table>
-
-<br/><br/>
-
-</div>
-
----
-
-<br/>
-
-I build backend systems and AI infrastructure that other engineers don't have to think twice about. Not because they're simple, but because the complexity is handled in the right place.
-
-The pattern across every project I've worked on: someone hands me something tangled, a codebase, a workflow, a vague problem, and I find the structure underneath it. Then I build something that makes that structure legible to everyone else.
-
-That's not a methodology. It's just how I approach work.
-
-I write architecture diagrams before I write code. I treat documentation as part of the engineering, not something that happens after it. I ask what problem we're actually solving before I ask what stack to use.
-
-<br/>
-
----
-
-<br/>
-
-## Selected Work
-
-<br/>
-
-### SocketSpec &nbsp;·&nbsp; Open Source WebSocket Framework
-
-> WebSocket development had no equivalent to FastAPI. I built one.
-
-Published under Apache 2.0. Decorator-based routing, dependency injection, middleware, authentication primitives, typed event validation, and auto-generated interactive documentation — all designed around the same developer experience that made FastAPI the standard for REST.
-
-The goal was to make building production-grade WebSocket APIs feel as structured and testable as building REST APIs.
-
-**Stack:** Python · WebSockets · Pydantic
-
-[![PyPI](https://img.shields.io/pypi/v/socketspec?style=flat-square&colorA=0d1117&colorB=30363d&label=PyPI)](https://pypi.org/project/socketspec/)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-socketspec-30363d?style=flat-square&colorA=0d1117)](https://github.com/laibaShahab/socketspec)
-
-<br/>
-
----
-
-<br/>
-
-### SmartML &nbsp;·&nbsp; No-Code AutoML Platform
-
-> Most ML platforms assume you already know ML. SmartML doesn't.
-
-End-to-end AutoML platform for non-technical users: upload a dataset, train across five or more algorithms, tune hyperparameters automatically, and explore SHAP-based explainability reports — without writing a single line of code.
-
-**What it covers:** Authentication · Dataset Management · Preprocessing · Model Training · Explainability · Deployment · AI Assistant · Collaboration · Subscriptions
-
-**The engineering challenge:** SHAP explanations are only useful if non-technical stakeholders understand them. The platform had to be opinionated enough to guide users through a correct ML workflow while staying honest about model limitations instead of hiding them behind confidence scores.
-
-**Stack:** FastAPI · Next.js · PostgreSQL · MongoDB · AWS (EC2, S3, RDS) · scikit-learn · XGBoost · LightGBM · SHAP
-
-[![Live](https://img.shields.io/badge/Live-smartml.tech-30363d?style=flat-square&colorA=0d1117)](https://smartml.tech)
-
-<br/>
-
----
-
-<br/>
-
-### AI Risk Intelligence Platform &nbsp;·&nbsp; Multi-Tenant Enterprise SaaS
-
-> Enterprise AI adoption fails when there's no infrastructure for accountability. This is what that infrastructure looks like.
-
-Designing and building backend services for a production multi-tenant enterprise risk platform. The hard part isn't the AI, it's the isolation: every tenant gets their own data boundaries, access controls, and audit surface, without duplicating the infrastructure.
-
-**What I own:** RAG pipeline architecture · Multi-agent AI workflows on AWS Bedrock · Tenant isolation via Amazon Cognito · Event-driven processing with SQS and EventBridge · Architecture documentation · Sequence diagrams · API documentation · Requirements collaboration with international clients
-
-**Stack:** FastAPI · Aurora PostgreSQL · pgvector · AWS Bedrock · Amazon ECS · Amazon SQS · EventBridge · Amazon Cognito
-
-<br/>
-
----
-
-<br/>
-
-### White-Label Delivery Platform &nbsp;·&nbsp; Full Backend as Sole Engineer
-
-> A white-label product means the same codebase has to behave differently for every operator. That complexity has to live somewhere.
-
-Architected and built the complete backend for a multi-tenant delivery platform supporting five distinct user roles across web, Android, and iOS clients: System Admin, Business Admin, Business User, Driver, and POS User.
-
-**Numbers:**
-```
-40+   REST APIs
-10+   Socket.IO events for real-time tracking and driver assignment
-15+   PostgreSQL tables spanning the full order lifecycle
- 5    user roles with RBAC + PBAC authorization
-```
-
-**Stack:** FastAPI · PostgreSQL · Redis · Socket.IO · Docker · APScheduler · Firebase · Resend
-
-<br/>
-
----
-
-<br/>
-
-### Doctor Appointment Agentic AI System
-
-> LLMs are not reliable by themselves. LangGraph gives you the structure to make them reliable.
-
-LangGraph-based agentic workflow for patient-facing appointment management: scheduling, triage, and RAG-powered contextual responses backed by a FAISS vector database.
-
-**Result:** Above 90% intent recognition accuracy across 8 distinct patient interaction flows during evaluation.
-
-**Stack:** FastAPI · LangGraph · OpenAI API · FAISS · RAG · Hugging Face
-
-[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&colorA=0d1117)](https://github.com/laibaShahab)
-
-<br/>
-
----
-
-<br/>
-
-## Engineering Philosophy
-
-<br/>
-
-```
-Understand the system before optimizing it.
-```
-
-Most bad rewrites happen because no one read the original carefully. The most useful thing I do in the first week of a new codebase is read it.
-
-<br/>
-
-```
-Documentation is part of engineering.
-```
-
-If a system is too complex to document, the system has a problem. I write architecture diagrams before I write code because drawing forces precision before you're committed to anything.
-
-<br/>
-
-```
-Good software is understandable.
-```
-
-Clever is a liability. The most important reader of any code is the engineer fixing it at 2am. Write for them.
-
-<br/>
-
-```
-Question the early assumptions.
-```
-
-Requirements often describe solutions to problems that were never fully defined. The best time to catch that is before the sprint starts.
-
-<br/>
-
----
-
-<br/>
-
-## Tech Stack
-
-<br/>
-
-**🐍 Languages**
-
-![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB)
-![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![SQL](https://img.shields.io/badge/SQL-0d1117?style=flat-square&logo=postgresql&logoColor=8b949e)
-
-<br/>
-
-**⚙️ Backend**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=009688)
-![Django](https://img.shields.io/badge/Django-0d1117?style=flat-square&logo=django&logoColor=092E20)
-![Flask](https://img.shields.io/badge/Flask-0d1117?style=flat-square&logo=flask&logoColor=ffffff)
-![Pydantic](https://img.shields.io/badge/Pydantic-0d1117?style=flat-square&logo=pydantic&logoColor=E92063)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-0d1117?style=flat-square&logo=sqlalchemy&logoColor=D71F00)
-![Celery](https://img.shields.io/badge/Celery-0d1117?style=flat-square&logo=celery&logoColor=37814A)
-![Socket.IO](https://img.shields.io/badge/Socket.IO-0d1117?style=flat-square&logo=socketdotio&logoColor=ffffff)
-![GraphQL](https://img.shields.io/badge/GraphQL-0d1117?style=flat-square&logo=graphql&logoColor=E10098)
-
-<br/>
-
-**🤖 AI & ML**
-
-![LangChain](https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logo=langchain&logoColor=1C3C3C)
-![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-0d1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-0d1117?style=flat-square&logo=scikitlearn&logoColor=F7931E)
-![XGBoost](https://img.shields.io/badge/XGBoost-0d1117?style=flat-square&logo=xgboost&logoColor=189fdd)
-![OpenAI](https://img.shields.io/badge/OpenAI-0d1117?style=flat-square&logo=openai&logoColor=ffffff)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-0d1117?style=flat-square&logo=huggingface&logoColor=FFD21E)
-![YOLO](https://img.shields.io/badge/YOLO-0d1117?style=flat-square&logo=yolo&logoColor=00FFFF)
-
-<br/>
-
-**🗄️ Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1)
-![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=47A248)
-![Redis](https://img.shields.io/badge/Redis-0d1117?style=flat-square&logo=redis&logoColor=FF4438)
-![Aurora](https://img.shields.io/badge/Aurora_PostgreSQL-0d1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
-
-<br/>
-
-**☁️ Cloud & Infrastructure**
-
-![AWS](https://img.shields.io/badge/AWS-0d1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
-![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED)
-![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=FCC624)
-![Nginx](https://img.shields.io/badge/Nginx-0d1117?style=flat-square&logo=nginx&logoColor=009639)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0d1117?style=flat-square&logo=githubactions&logoColor=2088FF)
-![Firebase](https://img.shields.io/badge/Firebase-0d1117?style=flat-square&logo=firebase&logoColor=FFCA28)
-
-<br/>
-
-**🔐 Auth**
-
-![JWT](https://img.shields.io/badge/JWT-0d1117?style=flat-square&logo=jsonwebtokens&logoColor=ffffff)
-![OAuth2](https://img.shields.io/badge/OAuth2-0d1117?style=flat-square&logo=oauth&logoColor=ffffff)
-![Amazon Cognito](https://img.shields.io/badge/Amazon_Cognito-0d1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
-
-<br/>
-
----
-
-<br/>
-
-## Research
-
-<br/>
-
-**AI & Deep Learning for Sustainable Cloud Security** &nbsp;·&nbsp; *Presented, STEM Conference, Kinnaird College 2025*
-
-Survey of AI-driven cloud security automation and sustainable cloud computing practices.
-
-<br/>
-
-**Enhancing Patterson-Gimlin Footage using Deep Learning & Computer Vision** &nbsp;·&nbsp; *Ongoing*
-
-Applying Real-ESRGAN, YOLOv8, and OpenPose to reconstruct visual clarity and gait patterns from degraded archival footage. Yes, that footage.
-
-<br/>
-
-**The Quantum Threat: A Survey of Post-Quantum Cryptography** &nbsp;·&nbsp; *Ongoing*
-
-Surveying lattice-based, hash-based, and code-based cryptography within the NIST PQC standardization process.
-
-<br/>
-
----
-
-<br/>
-
-## Recognition
-
-<br/>
-
-<table>
-<tr>
-<td>🥇</td>
-<td><strong>Gold Medalist</strong> &nbsp;·&nbsp; Department of Computer Science, University of Central Punjab</td>
-</tr>
-<tr>
-<td>#1</td>
-<td><strong>Department Rank 1</strong> &nbsp;·&nbsp; CGPA 4.00/4.00 &nbsp;·&nbsp; 100% Merit Scholarship throughout</td>
-</tr>
-<tr>
-<td>🌏</td>
-<td><strong>Google Asia-Pacific Generation Scholar 2024</strong> &nbsp;·&nbsp; Selected among top 3 women across the Asia-Pacific region</td>
-</tr>
-<tr>
-<td>🏆</td>
-<td><strong>Employee of the Quarter</strong> &nbsp;·&nbsp; Ibtidah Solutions</td>
-</tr>
-<tr>
-<td>⚡</td>
-<td><strong>Programming Competition Runner-up</strong> &nbsp;·&nbsp; Techathon 2025 · UCP Olympiad 2024</td>
-</tr>
-</table>
-
-<br/>
-
----
-
-<br/>
-
-## GitHub Activity
-
-<br/>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=laibaShahab&theme=dark&background=0d1117&border=30363d&ring=8b949e&fire=8b949e&currStreakLabel=8b949e&sideLabels=8b949e&dates=555555&currStreakNum=e6edf3&sideNums=e6edf3)](https://github.com/laibaShahab)
-
-<br/>
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=laibaShahab&bg_color=0d1117&color=8b949e&line=30363d&point=8b949e&area=true&area_color=21262d&hide_border=true)](https://github.com/laibaShahab)
-
+<img src="./assets/header.svg" alt="laiba(1) — General Commands Manual" width="100%"/>
 </div>
 
 <br/>
 
----
+<div align="center">
+<img src="./assets/boot.svg" alt="boot sequence" width="100%"/>
+</div>
 
 <br/>
 
-## Contact
+## SYNOPSIS
 
-<br/>
-
-If you're building something hard and you want someone who will actually understand it before touching it, I'm interested in that conversation.
-
-<br/>
-
-[![Email](https://img.shields.io/badge/its.laiba.shahab%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:its.laiba.shahab@gmail.com)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/laiba--shahab-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/laiba-shahab)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/laibaShahab-0d1117?style=flat-square&logo=github&logoColor=ffffff)](https://github.com/laibaShahab)
-
-<br/>
-
----
+```
+$ neofetch
+```
 
 <div align="center">
-<br/>
-<sub><code>I don't chase technologies. I chase problems. The technologies usually follow.</code></sub>
-<br/><br/>
+<img src="./assets/neofetch.svg" alt="system information" width="100%"/>
+</div>
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=100&section=footer)
+<br/>
+
+## DESCRIPTION
+
+```
+$ whoami
+```
+
+Every project I join follows the same pattern. I ask a few too many questions in the first week. An architecture diagram appears that nobody explicitly asked for. Documentation shows up next to the code instead of after it, or instead of never. By the second week, the diagram is the thing the team points to in stand-up.
+
+I don't set out to do this. It's just what happens when I try to understand a system well enough to change it safely.
+
+I'm a backend and AI systems engineer working across FastAPI, PostgreSQL, and AWS, currently building production services for a delivery platform, an AI risk intelligence platform, and a legal AI product. I also maintain an open source WebSocket framework and read more RFC-style writing than is strictly necessary for the job.
+
+```
+$ cat ~/.identity
+```
+
+```
+I don't chase technologies.
+I chase problems.
+The technologies usually follow.
+```
+
+<br/>
+
+## SYSTEM ARCHITECTURE
+
+```
+$ cat /proc/laiba/pipeline
+```
+
+<div align="center">
+<img src="./assets/architecture.svg" alt="engineering pipeline" width="100%"/>
+</div>
+
+<br/>
+
+## LSMOD — LOADED MODULES
+
+```
+$ cat /proc/laiba/brain
+```
+
+<div align="center">
+<img src="./assets/brain.svg" alt="brain architecture" width="100%"/>
+</div>
+
+<br/>
+
+## PACKAGE MANAGEMENT
+
+```
+$ apt list --installed
+```
+
+| package | version | description |
+|---|---|---|
+| `python` | 3.11 | primary runtime |
+| `fastapi` | stable | async REST & WebSocket APIs |
+| `postgresql` | 15 / aurora | primary datastore, usually with pgvector loaded |
+| `redis` | stable | caching, queues, things that need to be fast |
+| `docker` | stable | ships the thing, not just builds it |
+| `aws` | bedrock/ecs/sqs/eventbridge/cognito | where production actually lives |
+| `langgraph` | stable | agentic workflows, RAG orchestration |
+| `linux` | daily-driver | not a personality trait, just true |
+| `system-design` | always-loaded | cannot be unloaded, has been tried |
+| `documentation` | always-loaded | see above |
+| `overthinking` | optional, frequently active | working on a patch |
+
+<sub>full manifest: Python, SQL, JavaScript/TypeScript · FastAPI, Django, Flask, SQLAlchemy, Celery · REST, GraphQL, Socket.IO, WebSockets · JWT, OAuth2, Cognito, RBAC/PBAC · PostgreSQL, Aurora, Redis, MongoDB, pgvector · AWS (Bedrock, ECS, S3, SQS, EventBridge), Docker, Nginx, GitHub Actions · React, Next.js, Tailwind · LLMs, RAG, AI Agents, Vector Search, YOLO, OpenPose, Real-ESRGAN</sub>
+
+<br/>
+
+## RUNNING SERVICES
+
+```
+$ systemctl list-units --type=service
+```
+
+<details>
+<summary><code>● delivero.service</code> — loaded, active (running)</summary>
+<br/>
+
+```
+Loaded:   yes
+Status:   running (production)
+Purpose:  white-label, multi-tenant delivery platform
+Clients:  web · android (kotlin) · ios (swift)
+Roles:    system-admin · business-admin · business-user · driver · pos-user
+```
+
+Owns the backend end to end: order lifecycle from POS creation through automated driver assignment, live tracking, and completion. 40+ REST APIs, 10+ Socket.IO events, 15+ PostgreSQL tables. RBAC/PBAC authorization, Redis caching, APScheduler jobs, containerized with Docker, notifications via Resend and Firebase.
+
+`stack: fastapi · postgresql · redis · docker · socket.io`
+
+</details>
+
+<details>
+<summary><code>● cadie.service</code> — loaded, active (running)</summary>
+<br/>
+
+```
+Loaded:   yes
+Status:   running (production)
+Purpose:  multi-tenant enterprise AI risk intelligence platform
+```
+
+RAG pipelines and multi-agent workflows on AWS Bedrock, deployed on ECS with SQS and EventBridge handling event-driven processing. Aurora PostgreSQL with pgvector for retrieval. Tenant isolation via Cognito. Also responsible for architecture docs, API docs, and the sequence diagrams the client roadmap runs on.
+
+`stack: fastapi · aurora postgresql · pgvector · bedrock · ecs · sqs · eventbridge · cognito`
+
+</details>
+
+<details>
+<summary><code>● lexertia.service</code> — loaded, active (running)</summary>
+<br/>
+
+```
+Loaded:   yes
+Status:   running (production)
+Purpose:  enterprise legal AI platform
+```
+
+Maintaining and extending production backend services, including Cognito-based auth. Shipped report generation and motion drafting features. On call for the issues that only show up once real clients are using the thing.
+
+`stack: fastapi · aws cognito · real-time services`
+
+</details>
+
+<details>
+<summary><code>● backend-automation.service</code> — loaded, inactive (exited, Feb–May 2026)</summary>
+<br/>
+
+```
+Loaded:   yes
+Status:   exited (0)
+Purpose:  internal tooling & workflow automation
+```
+
+Designed internal business applications in Retool, wired into Shopify and WooCommerce over REST and GraphQL. Optimized PostgreSQL pipelines for reporting and analytics, automated recurring inventory and customer workflows.
+
+`stack: retool · postgresql · shopify api · woocommerce api`
+
+</details>
+
+<details>
+<summary><code>● 10pearls-internship.service</code> — loaded, inactive (exited, Jun–Sep 2025)</summary>
+<br/>
+
+```
+Loaded:   yes
+Status:   exited (0)
+Purpose:  air quality prediction
+```
+
+Ensemble of XGBoost, LightGBM, and CatBoost, R² above 0.92. Built SHAP dashboards so non-technical stakeholders could see why the model believed what it believed. Automated retraining and deployment through GitHub Actions, cutting deploy time from hours to under 10 minutes.
+
+`stack: xgboost · lightgbm · catboost · shap · github actions`
+
+</details>
+
+<br/>
+
+## PROJECT REGISTRY
+
+```
+$ systemctl status smartml.service
+```
+
+```
+● smartml.service — SmartML (Final Year Project)
+   Loaded: yes
+   Active: running
+   Docs:   smartml.tech
+
+   Purpose: no-code AutoML platform. Upload a dataset, train a model,
+            read a SHAP explainability report. No code required.
+
+   Modules:
+     ✓ auth              ✓ dataset management     ✓ training
+     ✓ explainability     ✓ ai assistant           ✓ deployment
+     ✓ collaboration      ✓ subscriptions
+
+   Stack: fastapi · next.js · postgresql · mongodb · s3
+          scikit-learn · xgboost · lightgbm · shap
+
+   Notes: 5+ algorithms, automated hyperparameter tuning,
+          deployed on EC2/S3/RDS.
+```
+
+```
+$ systemctl status doctor-agent.service
+```
+
+```
+● doctor-agent.service — Doctor Appointment Agentic AI
+   Loaded: yes
+   Active: running (evaluation build)
+
+   Purpose: LangGraph agentic workflow for scheduling, triage,
+            and RAG-backed patient Q&A over a FAISS vector store.
+
+   Result: >90% intent recognition across 8 interaction flows.
+
+   Stack: fastapi · langgraph · openai api · faiss · rag
+```
+
+<br/>
+
+## OPEN SOURCE
+
+```
+$ apt-cache show socketspec
+```
+
+```
+Package:      socketspec
+Version:      stable
+License:      Apache-2.0
+Description:  a FastAPI-flavored WebSocket framework — decorator
+              routing, dependency injection, middleware, typed
+              event validation, and docs generation for people who
+              don't want to reinvent auth for the third time.
+
+Homepage:     github.com/laibaShahab/socketspec
+Registry:     pypi.org/project/socketspec
+```
+
+<br/>
+
+## ENGINEERING PRINCIPLES
+
+```
+$ cat /etc/laiba/engineering.conf
+```
+
+```ini
+[core]
+documentation           = true
+architecture_first      = true
+question_assumptions    = true
+problem_driven_learning = true
+technology_as_identity  = false
+
+[design]
+simplicity_over_cleverness = true
+single_source_of_truth     = true
+premature_optimization     = disabled
+
+[behavior]
+ships_without_docs = never
+```
+
+<br/>
+
+## KNOWN BUGS
+
+```
+$ cat /var/log/known_bugs.log
+```
+
+```
+known_bugs:
+  - documentation.service starts before anyone files the ticket
+  - will produce an architecture diagram for a two-line change
+  - can lose 40 minutes to a naming discussion and consider it time well spent
+  - occasionally becomes the de facto team wiki without applying for the role
+  - reads RFCs for fun, this has been flagged, no fix scheduled
+
+status: won't_fix
+```
+
+<br/>
+
+## SYSTEM LOGS
+
+```
+$ journalctl -u laiba --since "2022-01-01"
+```
+
+```
+[INFO]    joined project, asked more questions than expected
+[INFO]    architecture diagram drawn, no one had requested one
+[INFO]    documentation published, team stopped asking "how does this work"
+[SUCCESS] gold medalist, dept rank #1, cgpa 4.00/4.00
+[SUCCESS] selected — google asia-pacific generation scholar, top 3 (women), apac
+[SUCCESS] employee of the quarter, ibtidah solutions
+[INFO]    research presented, stem conference, kinnaird college
+[SUCCESS] runner-up, techathon 2025 and ucp olympiad 2024
+[INFO]    root cause of "it's broken" traced to npm run dev, again
+[SUCCESS] production deployed, docs shipped in the same PR
+```
+
+<br/>
+
+## RESEARCH
+
+```
+$ ls -la research/
+```
+
+<details>
+<summary><code>ai-deep-learning-sustainable-cloud-security.pdf</code></summary>
+<br/>
+
+Presented at the STEM Conference, Kinnaird College. Surveys AI-driven cloud security automation alongside sustainable cloud computing practices, looking at where the two goals reinforce each other and where they trade off.
+</details>
+
+<details>
+<summary><code>patterson-gimlin-footage-restoration.pdf</code> <sub>(ongoing)</sub></summary>
+<br/>
+
+Applying Real-ESRGAN, YOLOv8, and OpenPose to reconstruct visual clarity and gait patterns from degraded archival footage. A computer vision problem wearing a cryptid costume.
+</details>
+
+<details>
+<summary><code>quantum-threat-pqc-survey.pdf</code> <sub>(ongoing)</sub></summary>
+<br/>
+
+A survey of lattice-based, hash-based, and code-based cryptography within the NIST PQC standardization and migration process.
+</details>
+
+<br/>
+
+## ACHIEVEMENTS
+
+```
+$ cat /var/log/achievements.log
+```
+
+```
+[GOLD MEDAL]     Dept. of Computer Science, University of Central Punjab
+[RANK #1]        Department Rank #1 — CGPA 4.00 / 4.00
+[SCHOLARSHIP]    100% Merit Scholarship, full undergraduate duration
+[SCHOLAR]        Google Asia-Pacific Generation Scholar, 2024
+                 (Top 3 women, Asia-Pacific region)
+[AWARD]          Employee of the Quarter, Ibtidah Solutions
+[COMPETITION]    Runner-up, Techathon 2025
+[COMPETITION]    Runner-up, UCP Olympiad 2024
+[PRESENTER]      STEM Conference, Kinnaird College, 2025
+```
+
+<br/>
+
+## MONITORING DASHBOARD
+
+```
+$ grafana --dashboard=github-stats
+```
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=laibaShahab&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=f0883e&text_color=c9d1d9&ring_color=30363d" alt="github stats" height="165"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=laibaShahab&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="top languages" height="165"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=laibaShahab&hide_border=true&background=0D1117&ring=58A6FF&fire=F0883E&currStreakLabel=58A6FF" alt="streak stats" height="165"/>
+
+</div>
+
+<br/>
+
+## CONNECT
+
+```
+$ connect laiba
+```
+
+```
+Email       its.laiba.shahab@gmail.com
+GitHub      github.com/laibaShahab
+LinkedIn    linkedin.com/in/laiba-shahab
+
+Status      open to backend, AI infrastructure, and system design
+            problems, especially the kind that come with an
+            architecture diagram someone already got wrong.
+```
+
+<br/>
+
+## SHUTDOWN
+
+```
+$ shutdown now
+```
+
+```
+Stopping backend.service...              done
+Stopping ai.service...                   done
+Saving architecture diagrams...          done
+Saving documentation...                  done (it was already saved)
+
+System halted.
+```
+
+<div align="center">
+
+<br/>
+
+*I don't chase technologies.*
+*I chase problems.*
+*The technologies usually follow.*
+
+<br/>
+
+<sub>LAIBA(1)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAIBA(1)</sub>
 
 </div>
