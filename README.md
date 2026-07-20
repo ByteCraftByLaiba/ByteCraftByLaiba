@@ -5,6 +5,12 @@
 <br/>
 
 <div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&background=0D111700&center=true&vCenter=true&width=700&lines=turning+chaos+into+systems...;documentation.service%3A+always-on;architecture+diagrams%2C+uninvited;I+don't+chase+technologies.+I+chase+problems." alt="typing animation"/>
+</div>
+
+<br/>
+
+<div align="center">
 <img src="./assets/boot.svg" alt="boot sequence" width="100%"/>
 </div>
 
