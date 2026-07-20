@@ -1,0 +1,63 @@
+<svg width="900" height="620" viewBox="0 0 900 620" xmlns="http://www.w3.org/2000/svg" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace">
+  <rect x="0" y="0" width="900" height="620" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+  <rect x="0" y="0" width="900" height="34" rx="10" fill="#161b22"/>
+  <rect x="0" y="24" width="900" height="10" fill="#161b22"/>
+  <circle cx="24" cy="17" r="6" fill="#ff5f56"/>
+  <circle cx="44" cy="17" r="6" fill="#ffbd2e"/>
+  <circle cx="64" cy="17" r="6" fill="#27c93f"/>
+  <text x="450" y="21" fill="#8b949e" font-size="12" text-anchor="middle">/proc/laiba/pipeline</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#58a6ff"/>
+    </marker>
+  </defs>
+
+  <!-- stage box helper values: centered x=450, box width 360, height 46, gap 22 -->
+  <!-- stages -->
+  <g font-size="14">
+    <!-- 1 -->
+    <rect x="270" y="60" width="360" height="46" rx="6" fill="#161b22" stroke="#30363d"/>
+    <text x="450" y="88" fill="#c9d1d9" text-anchor="middle">incoming_problem</text>
+    <line x1="450" y1="106" x2="450" y2="128" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+    <!-- 2 -->
+    <rect x="270" y="128" width="360" height="46" rx="6" fill="#161b22" stroke="#30363d"/>
+    <text x="450" y="156" fill="#c9d1d9" text-anchor="middle">understand_context()</text>
+    <line x1="450" y1="174" x2="450" y2="196" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+    <!-- 3 -->
+    <rect x="270" y="196" width="360" height="46" rx="6" fill="#161b22" stroke="#30363d"/>
+    <text x="450" y="224" fill="#c9d1d9" text-anchor="middle">question_assumptions()</text>
+    <line x1="450" y1="242" x2="450" y2="264" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+    <!-- 4 -->
+    <rect x="270" y="264" width="360" height="46" rx="6" fill="#161b22" stroke="#30363d"/>
+    <text x="450" y="292" fill="#c9d1d9" text-anchor="middle">read_existing_system()</text>
+    <line x1="450" y1="310" x2="450" y2="332" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+    <!-- 5 -->
+    <rect x="270" y="332" width="360" height="46" rx="6" fill="#161b22" stroke="#3fb950"/>
+    <text x="450" y="360" fill="#c9d1d9" text-anchor="middle">draw_architecture()</text>
+    <line x1="450" y1="378" x2="450" y2="400" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+    <!-- 6 -->
+    <rect x="270" y="400" width="360" height="46" rx="6" fill="#161b22" stroke="#30363d"/>
+    <text x="450" y="428" fill="#c9d1d9" text-anchor="middle">choose_technology()</text>
+    <line x1="450" y1="446" x2="450" y2="468" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+    <!-- 7 -->
+    <rect x="270" y="468" width="360" height="46" rx="6" fill="#161b22" stroke="#30363d"/>
+    <text x="450" y="496" fill="#c9d1d9" text-anchor="middle">build()</text>
+    <line x1="450" y1="514" x2="450" y2="536" stroke="#58a6ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+    <!-- 8 -->
+    <rect x="270" y="536" width="360" height="46" rx="6" fill="#161b22" stroke="#f0883e"/>
+    <text x="450" y="564" fill="#c9d1d9" text-anchor="middle">document()  // not optional</text>
+  </g>
+
+  <text x="662" y="90" fill="#8b949e" font-size="11.5">no ticket required</text>
+  <text x="662" y="226" fill="#8b949e" font-size="11.5">"wait, why though?"</text>
+  <text x="662" y="362" fill="#8b949e" font-size="11.5">SVG, not ASCII, obviously</text>
+  <text x="662" y="566" fill="#8b949e" font-size="11.5">exit code depends on this</text>
+</svg>
