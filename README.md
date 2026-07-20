@@ -2,20 +2,40 @@
 
 <br/>
 
-<!-- Terminal-style name mark -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=0&pause=0&color=666666&center=true&vCenter=true&repeat=false&width=300&lines=AI+%26+Backend+Engineer" />
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=0&pause=0&color=999999&center=true&vCenter=true&repeat=false&width=300&lines=AI+%26+Backend+Engineer" />
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=0&pause=0&color=666666&center=true&vCenter=true&repeat=false&width=300&lines=AI+%26+Backend+Engineer" alt="AI & Backend Engineer" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=12&duration=0&pause=0&color=555555&center=true&vCenter=true&repeat=false&width=420&lines=Backend+%26+AI+Systems+Engineer+%E2%80%94+Lahore%2C+Pakistan" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=12&duration=0&pause=0&color=999999&center=true&vCenter=true&repeat=false&width=420&lines=Backend+%26+AI+Systems+Engineer+%E2%80%94+Lahore%2C+Pakistan" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=12&duration=0&pause=0&color=555555&center=true&vCenter=true&repeat=false&width=420&lines=Backend+%26+AI+Systems+Engineer+%E2%80%94+Lahore%2C+Pakistan" alt="role" />
 </picture>
 
+<br/><br/>
+
+# Laiba Shahab
+
 <br/>
 
-# I turn chaos into systems.
+*I turn chaos into systems.*
 
-<br/>
+<br/><br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1000&color=888888&center=true&vCenter=true&width=700&lines=I+don%27t+chase+technologies.+I+chase+problems.+The+technologies+usually+follow." alt="Philosophy" />
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td align="center" width="180">
+<code>4.00 / 4.00</code><br/>
+<sub>CGPA · Gold Medalist</sub>
+</td>
+<td align="center" width="20"><sub>·</sub></td>
+<td align="center" width="180">
+<code>Rank #1</code><br/>
+<sub>Department of CS · UCP</sub>
+</td>
+<td align="center" width="20"><sub>·</sub></td>
+<td align="center" width="180">
+<code>Top 3</code><br/>
+<sub>Google APAC Scholar · Asia-Pacific</sub>
+</td>
+</tr>
+</table>
 
 <br/><br/>
 
@@ -25,43 +45,13 @@
 
 <br/>
 
-**Every project I've worked on starts the same way.**
+I build backend systems and AI infrastructure that other engineers don't have to think twice about. Not because they're simple, but because the complexity is handled in the right place.
 
-Someone hands me something messy, a codebase, a process, an idea, and I figure out the system underneath it. Then I build something that makes the mess invisible to everyone else.
+The pattern across every project I've worked on: someone hands me something tangled, a codebase, a workflow, a vague problem, and I find the structure underneath it. Then I build something that makes that structure legible to everyone else.
 
-That's the thread. Not AI, not backend, not any particular stack. The pattern is: take something hard to understand, make it understandable, then make it work.
+That's not a methodology. It's just how I approach work.
 
-I gravitate toward problems that require both architectural thinking and the patience to document what you've built. I write architecture diagrams before I write code. I question the assumptions behind requirements. I think the best engineering is the kind you don't have to explain twice.
-
-<br/>
-
----
-
-<br/>
-
-## Selected Projects
-
-<br/>
-
-### SmartML &nbsp;·&nbsp; End-to-End Machine Learning Platform
-
-> The problem with most ML tooling is that it solves one part of the pipeline in isolation. SmartML treats the entire lifecycle as a single product.
-
-A full-stack platform built from scratch that takes a dataset from raw upload to deployed, explainable model, with everything in between handled in one place.
-
-**What it covers:** Authentication · Dataset Management · Preprocessing · Model Training · Explainability · Deployment · AI Assistant · Team Collaboration · Subscriptions
-
-**The engineering challenge:** Building a system where data scientists, engineers, and non-technical stakeholders can all operate at their own level without stepping on each other. The platform needed to be opinionated enough to guide users through a correct ML workflow, but flexible enough not to break when real data arrives.
-
-**Stack:** Python · FastAPI · TensorFlow · PyTorch · LangChain · PostgreSQL · Docker
-
-<br/>
-
-<details>
-<summary><code>→ View project</code></summary>
-<br/>
-<em>Repository link coming soon.</em>
-</details>
+I wrote architecture diagrams before I wrote code. I treat documentation as part of the engineering, not something that happens after it. I ask what problem we're actually solving before I ask what stack to use.
 
 <br/>
 
@@ -69,17 +59,23 @@ A full-stack platform built from scratch that takes a dataset from raw upload to
 
 <br/>
 
-### AI Governance Platform &nbsp;·&nbsp; Multi-Tenant AI Workflow Infrastructure
+## Selected Work
 
-> Enterprises need AI to be auditable, controllable, and safe to operate at scale. This is what that looks like in production.
+<br/>
 
-Designed and built an AI workflow platform on AWS for a client operating across multiple tenants, each with their own data isolation requirements and access controls.
+### SocketSpec &nbsp;·&nbsp; Open Source WebSocket Framework
 
-**The engineering challenge:** Multi-tenancy at the AI layer is harder than at the data layer. Workflows had to be isolated without duplicating infrastructure, and every AI decision needed to be traceable. The heavier lift was the architecture: knowing what to build, documenting why, and making sure the next engineer didn't have to reverse-engineer anything.
+> WebSocket development had no equivalent to FastAPI. I built one.
 
-**Stack:** AWS Bedrock · Aurora PostgreSQL · pgvector · Amazon Cognito · Amazon ECS · Amazon SQS · Python
+Published under Apache 2.0. Decorator-based routing, dependency injection, middleware, authentication primitives, typed event validation, and auto-generated interactive documentation, all designed around the same developer experience that made FastAPI the standard for REST.
 
-**What I owned:** Architecture diagrams · Technical design docs · Multi-tenant IAM model · AI workflow orchestration · Vector search integration
+The goal was to make building production-grade WebSocket APIs feel as structured and testable as building REST APIs.
+
+**Stack:** Python · WebSockets · Pydantic
+
+[![PyPI](https://img.shields.io/pypi/v/socketspec?style=flat-square&colorA=0d1117&colorB=30363d&label=PyPI)](https://pypi.org/project/socketspec/)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/GitHub-socketspec-30363d?style=flat-square&colorA=0d1117)](https://github.com/laibaShahab/socketspec)
 
 <br/>
 
@@ -87,17 +83,19 @@ Designed and built an AI workflow platform on AWS for a client operating across 
 
 <br/>
 
-### White-Label Delivery Platform &nbsp;·&nbsp; Backend-Only Engagement
+### SmartML &nbsp;·&nbsp; No-Code AutoML Platform
 
-> A logistics product that needed a real backend, not another CRUD scaffold.
+> Most ML platforms assume you already know ML. SmartML doesn't.
 
-Sole backend engineer on a white-label delivery platform serving multiple operator brands. Built the API layer, designed the PostgreSQL schema, and handled real-time updates via Socket.IO, all containerized and running in production.
+End-to-end AutoML platform for non-technical users: upload a dataset, train across five or more algorithms, tune hyperparameters automatically, and explore SHAP-based explainability reports, without writing a single line of code.
 
-**The engineering challenge:** White-label means the same codebase behaves differently depending on who's using it. The schema and API design had to make that branching clean without making it fragile.
+**What it covers:** Authentication · Dataset Management · Preprocessing · Model Training · Explainability · Deployment · AI Assistant · Collaboration · Subscriptions
 
-**Stack:** Python · PostgreSQL · Socket.IO · Docker · Background Job Workers
+**The engineering challenge:** SHAP explanations are only useful if non-technical stakeholders understand them. The platform had to be opinionated enough to guide users through a correct ML workflow while staying honest about model limitations instead of hiding them behind confidence scores.
 
-**What I owned:** Full API design · Database architecture · Auth system · Deployment pipeline
+**Stack:** FastAPI · Next.js · PostgreSQL · MongoDB · AWS (EC2, S3, RDS) · scikit-learn · XGBoost · LightGBM · SHAP
+
+[![Live](https://img.shields.io/badge/Live-smartml.tech-30363d?style=flat-square&colorA=0d1117)](https://smartml.tech)
 
 <br/>
 
@@ -105,15 +103,55 @@ Sole backend engineer on a white-label delivery platform serving multiple operat
 
 <br/>
 
-### Manufacturing Operations Platform &nbsp;·&nbsp; Workflow Automation
+### AI Risk Intelligence Platform &nbsp;·&nbsp; Multi-Tenant Enterprise SaaS
 
-> A factory floor running on spreadsheets is a system. Just a fragile one.
+> Enterprise AI adoption fails when there's no infrastructure for accountability. This is what that infrastructure looks like.
 
-Took a manufacturing business that tracked operations across a tangle of spreadsheets and migrated the entire workflow into a Retool application integrated with WooCommerce.
+Designing and building backend services for a production multi-tenant enterprise risk platform. The hard part isn't the AI, it's the isolation: every tenant gets their own data boundaries, access controls, and audit surface, without duplicating the infrastructure.
 
-**The engineering challenge:** The spreadsheets weren't wrong, they encoded real business logic. The job was to understand that logic first, then build something that captured it without losing what people already knew how to do.
+**What I own:** RAG pipeline architecture · Multi-agent AI workflows on AWS Bedrock · Tenant isolation via Amazon Cognito · Event-driven processing with SQS and EventBridge · Architecture documentation · Sequence diagrams · API documentation · Requirements collaboration with international clients
 
-**Stack:** Retool · WooCommerce API · PostgreSQL · JavaScript
+**Stack:** FastAPI · Aurora PostgreSQL · pgvector · AWS Bedrock · Amazon ECS · Amazon SQS · EventBridge · Amazon Cognito
+
+<br/>
+
+---
+
+<br/>
+
+### White-Label Delivery Platform &nbsp;·&nbsp; Full Backend as Sole Engineer
+
+> A white-label product means the same codebase has to behave differently for every operator. That complexity has to live somewhere.
+
+Architected and built the complete backend for a multi-tenant delivery platform supporting five distinct user roles across web, Android, and iOS clients: System Admin, Business Admin, Business User, Driver, and POS User.
+
+**Numbers:**
+```
+40+   REST APIs
+10+   Socket.IO events for real-time tracking and driver assignment
+15+   PostgreSQL tables spanning the full order lifecycle
+ 5    user roles with RBAC + PBAC authorization
+```
+
+**Stack:** FastAPI · PostgreSQL · Redis · Socket.IO · Docker · APScheduler · Firebase · Resend
+
+<br/>
+
+---
+
+<br/>
+
+### Doctor Appointment Agentic AI System
+
+> LLMs are not reliable by themselves. LangGraph gives you the structure to make them reliable.
+
+LangGraph-based agentic workflow for patient-facing appointment management: scheduling, triage, and RAG-powered contextual responses backed by a FAISS vector database.
+
+**Result:** Above 90% intent recognition accuracy across 8 distinct patient interaction flows during evaluation.
+
+**Stack:** FastAPI · LangGraph · OpenAI API · FAISS · RAG · Hugging Face
+
+[![GitHub](https://img.shields.io/badge/GitHub-repo-30363d?style=flat-square&colorA=0d1117)](https://github.com/laibaShahab)
 
 <br/>
 
@@ -129,23 +167,15 @@ Took a manufacturing business that tracked operations across a tangle of spreads
 Understand the system before optimizing it.
 ```
 
-Most bugs are misunderstandings. Most rewrites were avoidable. The most useful thing I can do on a new codebase is spend the first week reading it before writing a single line.
+Most bad rewrites happen because no one read the original carefully. The most useful thing I do in the first week of a new codebase is read it.
 
 <br/>
 
 ```
-Documentation is part of engineering, not a deliverable after engineering.
+Documentation is part of engineering.
 ```
 
-If the system is too complex to document, the system has a problem. Writing forces clarity. An architecture diagram that takes a day to make can save a team a week of confusion.
-
-<br/>
-
-```
-Question the assumptions, especially the early ones.
-```
-
-Requirements often describe solutions to problems that were never fully defined. The best time to catch a bad assumption is before the sprint starts.
+If a system is too complex to document, the system has a problem. I write architecture diagrams before I write code because drawing forces precision before you're committed to anything.
 
 <br/>
 
@@ -153,7 +183,15 @@ Requirements often describe solutions to problems that were never fully defined.
 Good software is understandable.
 ```
 
-Clever is a liability. The most important reader of any code is the engineer who has to fix it at 2am six months from now. Write for them.
+Clever is a liability. The most important reader of any code is the engineer fixing it at 2am. Write for them.
+
+<br/>
+
+```
+Question the early assumptions.
+```
+
+Requirements often describe solutions to problems that were never fully defined. The best time to catch that is before the sprint starts.
 
 <br/>
 
@@ -167,33 +205,43 @@ Clever is a liability. The most important reader of any code is the engineer who
 
 <table>
 <tr>
-<td valign="top" width="33%">
+<td valign="top" width="50%">
 
-**Languages**
+**Backend**
 ```
-Python
-TypeScript / JavaScript
-C++  ·  C
+Python · FastAPI · Django · Flask
+SQLAlchemy · Alembic · Pydantic
+Celery · APScheduler · Async Python
+REST · GraphQL · WebSockets · Socket.IO
+```
+
+**AI & ML**
+```
+LangChain · LangGraph · AWS Bedrock
+RAG · AI Agents · Vector Search
+scikit-learn · XGBoost · LightGBM · SHAP
+YOLO · OpenPose · Real-ESRGAN
 ```
 
 </td>
-<td valign="top" width="33%">
-
-**Frameworks & AI**
-```
-FastAPI  ·  Django  ·  Flask
-TensorFlow  ·  PyTorch
-LangChain
-```
-
-</td>
-<td valign="top" width="33%">
+<td valign="top" width="50%">
 
 **Infrastructure**
 ```
-AWS  ·  Docker  ·  Linux
-PostgreSQL  ·  MongoDB  ·  Redis
-Retool  ·  Git
+AWS (Bedrock, ECS, SQS, S3, EventBridge)
+Amazon Cognito · Aurora PostgreSQL
+Docker · Nginx · GitHub Actions · Linux
+```
+
+**Databases**
+```
+PostgreSQL · pgvector · Redis
+MongoDB · Aurora PostgreSQL
+```
+
+**Auth**
+```
+JWT · OAuth2 · AWS Cognito · RBAC · PBAC
 ```
 
 </td>
@@ -206,11 +254,25 @@ Retool  ·  Git
 
 <br/>
 
-## Current Focus
+## Research
 
 <br/>
 
-Building out SmartML. Thinking hard about what "AI governance" actually means in practice at the infrastructure level, not the policy level. Reading more about systems design than any specific framework.
+**AI & Deep Learning for Sustainable Cloud Security** &nbsp;·&nbsp; *Presented, STEM Conference, Kinnaird College 2025*
+
+Survey of AI-driven cloud security automation and sustainable cloud computing practices.
+
+<br/>
+
+**Enhancing Patterson-Gimlin Footage using Deep Learning & Computer Vision** &nbsp;·&nbsp; *Ongoing*
+
+Applying Real-ESRGAN, YOLOv8, and OpenPose to reconstruct visual clarity and gait patterns from degraded archival footage. Yes, that footage.
+
+<br/>
+
+**The Quantum Threat: A Survey of Post-Quantum Cryptography** &nbsp;·&nbsp; *Ongoing*
+
+Surveying lattice-based, hash-based, and code-based cryptography within the NIST PQC standardization process.
 
 <br/>
 
@@ -224,16 +286,24 @@ Building out SmartML. Thinking hard about what "AI governance" actually means in
 
 <table>
 <tr>
-<td>🏆</td><td><strong>Employee of the Quarter</strong></td>
+<td width="30"><sub>🥇</sub></td>
+<td><strong>Gold Medalist</strong> &nbsp;·&nbsp; Department of Computer Science, University of Central Punjab</td>
 </tr>
 <tr>
-<td>🎓</td><td><strong>Google APAC Scholar</strong></td>
+<td><sub>#1</sub></td>
+<td><strong>Department Rank 1</strong> &nbsp;·&nbsp; CGPA 4.00/4.00 &nbsp;·&nbsp; 100% Merit Scholarship throughout</td>
 </tr>
 <tr>
-<td>🥇</td><td><strong>Gold Medal</strong></td>
+<td><sub>🌏</sub></td>
+<td><strong>Google Asia-Pacific Generation Scholar 2024</strong> &nbsp;·&nbsp; Selected among top 3 women across the Asia-Pacific region</td>
 </tr>
 <tr>
-<td>⚡</td><td><strong>IEEE Vice Chair</strong></td>
+<td><sub>🏆</sub></td>
+<td><strong>Employee of the Quarter</strong> &nbsp;·&nbsp; Ibtidah Solutions</td>
+</tr>
+<tr>
+<td><sub>⚡</sub></td>
+<td><strong>Programming Competition Runner-up</strong> &nbsp;·&nbsp; Techathon 2025 · UCP Olympiad 2024</td>
 </tr>
 </table>
 
@@ -250,17 +320,17 @@ Building out SmartML. Thinking hard about what "AI governance" actually means in
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&icon_color=888888&title_color=e6edf3&text_color=8b949e&hide_rank=false&include_all_commits=true&count_private=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=default&bg_color=ffffff&border_color=d0d7de&icon_color=888888&title_color=1f2328&text_color=636c76&hide_rank=false&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&icon_color=888888&title_color=e6edf3&text_color=8b949e&hide_rank=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=laibaShahab&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&icon_color=666666&title_color=e6edf3&text_color=8b949e&count_private=true&include_all_commits=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=laibaShahab&show_icons=true&theme=default&bg_color=ffffff&border_color=d0d7de&icon_color=888888&title_color=1f2328&text_color=636c76&count_private=true&include_all_commits=true" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=laibaShahab&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&icon_color=666666&title_color=e6edf3&text_color=8b949e&count_private=true&include_all_commits=true" alt="GitHub Stats" />
 </picture>
 
 &nbsp;&nbsp;
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=8b949e&langs_count=6" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=default&bg_color=ffffff&border_color=d0d7de&title_color=1f2328&text_color=636c76&langs_count=6" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=8b949e&langs_count=6" alt="Top Languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=laibaShahab&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=8b949e&langs_count=6&hide=html,css" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=laibaShahab&layout=compact&theme=default&bg_color=ffffff&border_color=d0d7de&title_color=1f2328&text_color=636c76&langs_count=6&hide=html,css" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=laibaShahab&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=8b949e&langs_count=6&hide=html,css" alt="Top Languages" />
 </picture>
 
 </div>
@@ -275,11 +345,11 @@ Building out SmartML. Thinking hard about what "AI governance" actually means in
 
 <br/>
 
-If you're working on a hard systems problem and you want someone who will actually understand it before suggesting a solution, reach out.
+If you're building something hard and you want someone who will actually understand it before touching it, I'm interested in that conversation.
 
 <br/>
 
-`✉` &nbsp; **your@email.com** &nbsp;&nbsp;·&nbsp;&nbsp; `in` &nbsp; **linkedin.com/in/yourhandle** &nbsp;&nbsp;·&nbsp;&nbsp; `🌐` &nbsp; **yourwebsite.com**
+`✉` &nbsp;[its.laiba.shahab@gmail.com](mailto:its.laiba.shahab@gmail.com) &nbsp;&nbsp;·&nbsp;&nbsp; `in` &nbsp;[linkedin.com/in/laiba-shahab](https://linkedin.com/in/laiba-shahab) &nbsp;&nbsp;·&nbsp;&nbsp; `⚙` &nbsp;[github.com/laibaShahab](https://github.com/laibaShahab)
 
 <br/>
 
@@ -287,6 +357,6 @@ If you're working on a hard systems problem and you want someone who will actual
 
 <div align="center">
 <br/>
-<sub><code>Built to be read, not scrolled past.</code></sub>
+<sub><code>I don't chase technologies. I chase problems. The technologies usually follow.</code></sub>
 <br/><br/>
 </div>
