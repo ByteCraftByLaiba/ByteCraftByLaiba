@@ -1,89 +1,292 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=header" width="100%"/>
+
+<br/>
+
+<!-- Terminal-style name mark -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=0&pause=0&color=666666&center=true&vCenter=true&repeat=false&width=300&lines=AI+%26+Backend+Engineer" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=0&pause=0&color=999999&center=true&vCenter=true&repeat=false&width=300&lines=AI+%26+Backend+Engineer" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=0&pause=0&color=666666&center=true&vCenter=true&repeat=false&width=300&lines=AI+%26+Backend+Engineer" alt="AI & Backend Engineer" />
+</picture>
+
+<br/>
+
+# I turn chaos into systems.
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3500&pause=1000&color=888888&center=true&vCenter=true&width=700&lines=I+don%27t+chase+technologies.+I+chase+problems.+The+technologies+usually+follow." alt="Philosophy" />
+
+<br/><br/>
+
 </div>
 
-```python
-# laiba@bytecraft ~ %  whoami
+---
 
-{
-  "name"      : "Laiba Shahab",
-  "role"      : ["AI/ML Engineer", "Backend Developer"],
-  "location"  : "Lahore, Pakistan  ·  open to remote",
-  "medals"    : ["Gold Medalist · 4.0 GPA", "Google Asia-Pacific Scholar 2024"],
-  "uses_ai"   : "openly · proudly · responsibly",
-  "fun_fact"  : "applied forensic deep learning to a 1967 bigfoot film. not elaborating.",
-  "status"    : "shipping things that work, then making them faster"
-}
+<br/>
+
+**Every project I've worked on starts the same way.**
+
+Someone hands me something messy, a codebase, a process, an idea, and I figure out the system underneath it. Then I build something that makes the mess invisible to everyone else.
+
+That's the thread. Not AI, not backend, not any particular stack. The pattern is: take something hard to understand, make it understandable, then make it work.
+
+I gravitate toward problems that require both architectural thinking and the patience to document what you've built. I write architecture diagrams before I write code. I question the assumptions behind requirements. I think the best engineering is the kind you don't have to explain twice.
+
+<br/>
+
+---
+
+<br/>
+
+## Selected Projects
+
+<br/>
+
+### SmartML &nbsp;·&nbsp; End-to-End Machine Learning Platform
+
+> The problem with most ML tooling is that it solves one part of the pipeline in isolation. SmartML treats the entire lifecycle as a single product.
+
+A full-stack platform built from scratch that takes a dataset from raw upload to deployed, explainable model, with everything in between handled in one place.
+
+**What it covers:** Authentication · Dataset Management · Preprocessing · Model Training · Explainability · Deployment · AI Assistant · Team Collaboration · Subscriptions
+
+**The engineering challenge:** Building a system where data scientists, engineers, and non-technical stakeholders can all operate at their own level without stepping on each other. The platform needed to be opinionated enough to guide users through a correct ML workflow, but flexible enough not to break when real data arrives.
+
+**Stack:** Python · FastAPI · TensorFlow · PyTorch · LangChain · PostgreSQL · Docker
+
+<br/>
+
+<details>
+<summary><code>→ View project</code></summary>
+<br/>
+<em>Repository link coming soon.</em>
+</details>
+
+<br/>
+
+---
+
+<br/>
+
+### AI Governance Platform &nbsp;·&nbsp; Multi-Tenant AI Workflow Infrastructure
+
+> Enterprises need AI to be auditable, controllable, and safe to operate at scale. This is what that looks like in production.
+
+Designed and built an AI workflow platform on AWS for a client operating across multiple tenants, each with their own data isolation requirements and access controls.
+
+**The engineering challenge:** Multi-tenancy at the AI layer is harder than at the data layer. Workflows had to be isolated without duplicating infrastructure, and every AI decision needed to be traceable. The heavier lift was the architecture: knowing what to build, documenting why, and making sure the next engineer didn't have to reverse-engineer anything.
+
+**Stack:** AWS Bedrock · Aurora PostgreSQL · pgvector · Amazon Cognito · Amazon ECS · Amazon SQS · Python
+
+**What I owned:** Architecture diagrams · Technical design docs · Multi-tenant IAM model · AI workflow orchestration · Vector search integration
+
+<br/>
+
+---
+
+<br/>
+
+### White-Label Delivery Platform &nbsp;·&nbsp; Backend-Only Engagement
+
+> A logistics product that needed a real backend, not another CRUD scaffold.
+
+Sole backend engineer on a white-label delivery platform serving multiple operator brands. Built the API layer, designed the PostgreSQL schema, and handled real-time updates via Socket.IO, all containerized and running in production.
+
+**The engineering challenge:** White-label means the same codebase behaves differently depending on who's using it. The schema and API design had to make that branching clean without making it fragile.
+
+**Stack:** Python · PostgreSQL · Socket.IO · Docker · Background Job Workers
+
+**What I owned:** Full API design · Database architecture · Auth system · Deployment pipeline
+
+<br/>
+
+---
+
+<br/>
+
+### Manufacturing Operations Platform &nbsp;·&nbsp; Workflow Automation
+
+> A factory floor running on spreadsheets is a system. Just a fragile one.
+
+Took a manufacturing business that tracked operations across a tangle of spreadsheets and migrated the entire workflow into a Retool application integrated with WooCommerce.
+
+**The engineering challenge:** The spreadsheets weren't wrong, they encoded real business logic. The job was to understand that logic first, then build something that captured it without losing what people already knew how to do.
+
+**Stack:** Retool · WooCommerce API · PostgreSQL · JavaScript
+
+<br/>
+
+---
+
+<br/>
+
+## Engineering Philosophy
+
+<br/>
+
+```
+Understand the system before optimizing it.
 ```
 
----
+Most bugs are misunderstandings. Most rewrites were avoidable. The most useful thing I can do on a new codebase is spend the first week reading it before writing a single line.
 
-<img align="right" width="42%" src="https://github-readme-stats.vercel.app/api?username=ByteCraftByLaiba&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&hide_title=true"/>
+<br/>
 
-AI/ML Engineer. Backend Developer. Both.
+```
+Documentation is part of engineering, not a deliverable after engineering.
+```
 
-LLM systems, agentic workflows, RAG pipelines, production APIs — full stack, no disclaimers. I use AI tools openly, proudly, and responsibly. No shame here.
+If the system is too complex to document, the system has a problem. Writing forces clarity. An architecture diagram that takes a day to make can save a team a week of confusion.
 
-<br/><br/><br/>
+<br/>
 
----
+```
+Question the assumptions, especially the early ones.
+```
 
-### stack
+Requirements often describe solutions to problems that were never fully defined. The best time to catch a bad assumption is before the sprint starts.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+<br/>
+
+```
+Good software is understandable.
+```
+
+Clever is a liability. The most important reader of any code is the engineer who has to fix it at 2am six months from now. Write for them.
+
+<br/>
 
 ---
+
+<br/>
+
+## Tech Stack
+
+<br/>
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+**Languages**
+```
+Python
+TypeScript / JavaScript
+C++  ·  C
+```
+
+</td>
+<td valign="top" width="33%">
+
+**Frameworks & AI**
+```
+FastAPI  ·  Django  ·  Flask
+TensorFlow  ·  PyTorch
+LangChain
+```
+
+</td>
+<td valign="top" width="33%">
+
+**Infrastructure**
+```
+AWS  ·  Docker  ·  Linux
+PostgreSQL  ·  MongoDB  ·  Redis
+Retool  ·  Git
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+## Current Focus
+
+<br/>
+
+Building out SmartML. Thinking hard about what "AI governance" actually means in practice at the infrastructure level, not the policy level. Reading more about systems design than any specific framework.
+
+<br/>
+
+---
+
+<br/>
+
+## Recognition
+
+<br/>
+
+<table>
+<tr>
+<td>🏆</td><td><strong>Employee of the Quarter</strong></td>
+</tr>
+<tr>
+<td>🎓</td><td><strong>Google APAC Scholar</strong></td>
+</tr>
+<tr>
+<td>🥇</td><td><strong>Gold Medal</strong></td>
+</tr>
+<tr>
+<td>⚡</td><td><strong>IEEE Vice Chair</strong></td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+## GitHub Activity
+
+<br/>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ByteCraftByLaiba&theme=tokyonight&hide_border=true" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ByteCraftByLaiba&layout=compact&theme=tokyonight&hide_border=true&langs_count=5" width="40%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&icon_color=888888&title_color=e6edf3&text_color=8b949e&hide_rank=false&include_all_commits=true&count_private=true" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=default&bg_color=ffffff&border_color=d0d7de&icon_color=888888&title_color=1f2328&text_color=636c76&hide_rank=false&include_all_commits=true&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&icon_color=888888&title_color=e6edf3&text_color=8b949e&hide_rank=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+</picture>
+
+&nbsp;&nbsp;
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=8b949e&langs_count=6" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=default&bg_color=ffffff&border_color=d0d7de&title_color=1f2328&text_color=636c76&langs_count=6" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=8b949e&langs_count=6" alt="Top Languages" />
+</picture>
 
 </div>
 
-<div align="center">
+<br/>
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=ByteCraftByLaiba&theme=tokyo-night&hide_border=true&area=true)
+---
 
-</div>
+<br/>
+
+## Contact
+
+<br/>
+
+If you're working on a hard systems problem and you want someone who will actually understand it before suggesting a solution, reach out.
+
+<br/>
+
+`✉` &nbsp; **your@email.com** &nbsp;&nbsp;·&nbsp;&nbsp; `in` &nbsp; **linkedin.com/in/yourhandle** &nbsp;&nbsp;·&nbsp;&nbsp; `🌐` &nbsp; **yourwebsite.com**
+
+<br/>
 
 ---
 
 <div align="center">
-
-**have you calculated your success percentage today?**
-
-`(prayers completed × 100 ÷ 5) + bonus points for every nafil`
-
-*you can create a perfect score. every single day.*
-
-</div>
-
----
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/laiba-shahab)
-[![Gmail](https://img.shields.io/badge/gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:its.laiba.shahab@gmail.com)
-
-![](https://komarev.com/ghpvc/?username=ByteCraftByLaiba&color=a855f7&style=flat-square&label=people+who+stopped+scrolling)
-
-</div>
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=80&section=footer"/>
+<br/>
+<sub><code>Built to be read, not scrolled past.</code></sub>
+<br/><br/>
 </div>
