@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=4000&pause=1000&color=888888&center=true&vCenter=true&width=500&lines=I+turn+chaos+into+systems.;I+don't+chase+technologies.+I+chase+problems.;The+technologies+usually+follow." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=4000&pause=1000&color=888888&center=true&vCenter=true&width=600&lines=I+turn+chaos+into+systems.;I+don%27t+chase+technologies.+I+chase+problems.;The+technologies+usually+follow." alt="Typing SVG" />
 
 <br/><br/>
 
@@ -41,7 +41,7 @@ The pattern across every project I've worked on: someone hands me something tang
 
 That's not a methodology. It's just how I approach work.
 
-I wrote architecture diagrams before I wrote code. I treat documentation as part of the engineering, not something that happens after it. I ask what problem we're actually solving before I ask what stack to use.
+I write architecture diagrams before I write code. I treat documentation as part of the engineering, not something that happens after it. I ask what problem we're actually solving before I ask what stack to use.
 
 <br/>
 
@@ -57,7 +57,7 @@ I wrote architecture diagrams before I wrote code. I treat documentation as part
 
 > WebSocket development had no equivalent to FastAPI. I built one.
 
-Published under Apache 2.0. Decorator-based routing, dependency injection, middleware, authentication primitives, typed event validation, and auto-generated interactive documentation, all designed around the same developer experience that made FastAPI the standard for REST.
+Published under Apache 2.0. Decorator-based routing, dependency injection, middleware, authentication primitives, typed event validation, and auto-generated interactive documentation — all designed around the same developer experience that made FastAPI the standard for REST.
 
 The goal was to make building production-grade WebSocket APIs feel as structured and testable as building REST APIs.
 
@@ -77,7 +77,7 @@ The goal was to make building production-grade WebSocket APIs feel as structured
 
 > Most ML platforms assume you already know ML. SmartML doesn't.
 
-End-to-end AutoML platform for non-technical users: upload a dataset, train across five or more algorithms, tune hyperparameters automatically, and explore SHAP-based explainability reports, without writing a single line of code.
+End-to-end AutoML platform for non-technical users: upload a dataset, train across five or more algorithms, tune hyperparameters automatically, and explore SHAP-based explainability reports — without writing a single line of code.
 
 **What it covers:** Authentication · Dataset Management · Preprocessing · Model Training · Explainability · Deployment · AI Assistant · Collaboration · Subscriptions
 
@@ -193,50 +193,65 @@ Requirements often describe solutions to problems that were never fully defined.
 
 <br/>
 
-<table>
-<tr>
-<td valign="top" width="50%">
+**🐍 Languages**
 
-**Backend**
-```
-Python · FastAPI · Django · Flask
-SQLAlchemy · Alembic · Pydantic
-Celery · APScheduler · Async Python
-REST · GraphQL · WebSockets · Socket.IO
-```
+![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=3776AB)
+![TypeScript](https://img.shields.io/badge/TypeScript-0d1117?style=flat-square&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-0d1117?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![SQL](https://img.shields.io/badge/SQL-0d1117?style=flat-square&logo=postgresql&logoColor=8b949e)
 
-**AI & ML**
-```
-LangChain · LangGraph · AWS Bedrock
-RAG · AI Agents · Vector Search
-scikit-learn · XGBoost · LightGBM · SHAP
-YOLO · OpenPose · Real-ESRGAN
-```
+<br/>
 
-</td>
-<td valign="top" width="50%">
+**⚙️ Backend**
 
-**Infrastructure**
-```
-AWS (Bedrock, ECS, SQS, S3, EventBridge)
-Amazon Cognito · Aurora PostgreSQL
-Docker · Nginx · GitHub Actions · Linux
-```
+![FastAPI](https://img.shields.io/badge/FastAPI-0d1117?style=flat-square&logo=fastapi&logoColor=009688)
+![Django](https://img.shields.io/badge/Django-0d1117?style=flat-square&logo=django&logoColor=092E20)
+![Flask](https://img.shields.io/badge/Flask-0d1117?style=flat-square&logo=flask&logoColor=ffffff)
+![Pydantic](https://img.shields.io/badge/Pydantic-0d1117?style=flat-square&logo=pydantic&logoColor=E92063)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-0d1117?style=flat-square&logo=sqlalchemy&logoColor=D71F00)
+![Celery](https://img.shields.io/badge/Celery-0d1117?style=flat-square&logo=celery&logoColor=37814A)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-0d1117?style=flat-square&logo=socketdotio&logoColor=ffffff)
+![GraphQL](https://img.shields.io/badge/GraphQL-0d1117?style=flat-square&logo=graphql&logoColor=E10098)
 
-**Databases**
-```
-PostgreSQL · pgvector · Redis
-MongoDB · Aurora PostgreSQL
-```
+<br/>
 
-**Auth**
-```
-JWT · OAuth2 · AWS Cognito · RBAC · PBAC
-```
+**🤖 AI & ML**
 
-</td>
-</tr>
-</table>
+![LangChain](https://img.shields.io/badge/LangChain-0d1117?style=flat-square&logo=langchain&logoColor=1C3C3C)
+![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-0d1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-0d1117?style=flat-square&logo=scikitlearn&logoColor=F7931E)
+![XGBoost](https://img.shields.io/badge/XGBoost-0d1117?style=flat-square&logo=xgboost&logoColor=189fdd)
+![OpenAI](https://img.shields.io/badge/OpenAI-0d1117?style=flat-square&logo=openai&logoColor=ffffff)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-0d1117?style=flat-square&logo=huggingface&logoColor=FFD21E)
+![YOLO](https://img.shields.io/badge/YOLO-0d1117?style=flat-square&logo=yolo&logoColor=00FFFF)
+
+<br/>
+
+**🗄️ Databases**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0d1117?style=flat-square&logo=postgresql&logoColor=4169E1)
+![MongoDB](https://img.shields.io/badge/MongoDB-0d1117?style=flat-square&logo=mongodb&logoColor=47A248)
+![Redis](https://img.shields.io/badge/Redis-0d1117?style=flat-square&logo=redis&logoColor=FF4438)
+![Aurora](https://img.shields.io/badge/Aurora_PostgreSQL-0d1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
+
+<br/>
+
+**☁️ Cloud & Infrastructure**
+
+![AWS](https://img.shields.io/badge/AWS-0d1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=flat-square&logo=docker&logoColor=2496ED)
+![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=FCC624)
+![Nginx](https://img.shields.io/badge/Nginx-0d1117?style=flat-square&logo=nginx&logoColor=009639)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0d1117?style=flat-square&logo=githubactions&logoColor=2088FF)
+![Firebase](https://img.shields.io/badge/Firebase-0d1117?style=flat-square&logo=firebase&logoColor=FFCA28)
+
+<br/>
+
+**🔐 Auth**
+
+![JWT](https://img.shields.io/badge/JWT-0d1117?style=flat-square&logo=jsonwebtokens&logoColor=ffffff)
+![OAuth2](https://img.shields.io/badge/OAuth2-0d1117?style=flat-square&logo=oauth&logoColor=ffffff)
+![Amazon Cognito](https://img.shields.io/badge/Amazon_Cognito-0d1117?style=flat-square&logo=amazonaws&logoColor=FF9900)
 
 <br/>
 
@@ -276,23 +291,23 @@ Surveying lattice-based, hash-based, and code-based cryptography within the NIST
 
 <table>
 <tr>
-<td width="30"><sub>🥇</sub></td>
+<td>🥇</td>
 <td><strong>Gold Medalist</strong> &nbsp;·&nbsp; Department of Computer Science, University of Central Punjab</td>
 </tr>
 <tr>
-<td><sub>#1</sub></td>
+<td>#1</td>
 <td><strong>Department Rank 1</strong> &nbsp;·&nbsp; CGPA 4.00/4.00 &nbsp;·&nbsp; 100% Merit Scholarship throughout</td>
 </tr>
 <tr>
-<td><sub>🌏</sub></td>
+<td>🌏</td>
 <td><strong>Google Asia-Pacific Generation Scholar 2024</strong> &nbsp;·&nbsp; Selected among top 3 women across the Asia-Pacific region</td>
 </tr>
 <tr>
-<td><sub>🏆</sub></td>
+<td>🏆</td>
 <td><strong>Employee of the Quarter</strong> &nbsp;·&nbsp; Ibtidah Solutions</td>
 </tr>
 <tr>
-<td><sub>⚡</sub></td>
+<td>⚡</td>
 <td><strong>Programming Competition Runner-up</strong> &nbsp;·&nbsp; Techathon 2025 · UCP Olympiad 2024</td>
 </tr>
 </table>
@@ -331,7 +346,11 @@ If you're building something hard and you want someone who will actually underst
 
 <br/>
 
-`✉` &nbsp;[its.laiba.shahab@gmail.com](mailto:its.laiba.shahab@gmail.com) &nbsp;&nbsp;·&nbsp;&nbsp; `in` &nbsp;[linkedin.com/in/laiba-shahab](https://linkedin.com/in/laiba-shahab) &nbsp;&nbsp;·&nbsp;&nbsp; `⚙` &nbsp;[github.com/laibaShahab](https://github.com/laibaShahab)
+[![Email](https://img.shields.io/badge/its.laiba.shahab%40gmail.com-0d1117?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:its.laiba.shahab@gmail.com)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/laiba--shahab-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/laiba-shahab)
+&nbsp;
+[![GitHub](https://img.shields.io/badge/laibaShahab-0d1117?style=flat-square&logo=github&logoColor=ffffff)](https://github.com/laibaShahab)
 
 <br/>
 
