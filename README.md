@@ -1,20 +1,10 @@
 <div align="center">
 
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=12&duration=0&pause=0&color=555555&center=true&vCenter=true&repeat=false&width=420&lines=Backend+%26+AI+Systems+Engineer+%E2%80%94+Lahore%2C+Pakistan" />
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=12&duration=0&pause=0&color=999999&center=true&vCenter=true&repeat=false&width=420&lines=Backend+%26+AI+Systems+Engineer+%E2%80%94+Lahore%2C+Pakistan" />
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=12&duration=0&pause=0&color=555555&center=true&vCenter=true&repeat=false&width=420&lines=Backend+%26+AI+Systems+Engineer+%E2%80%94+Lahore%2C+Pakistan" alt="role" />
-</picture>
-
-<br/><br/>
-
-# Laiba Shahab
+![banner](https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=200&section=header&text=Laiba%20Shahab&fontSize=48&fontColor=e6edf3&fontAlignY=55&fontAlign=50&desc=Backend%20%26%20AI%20Systems%20Engineer&descAlignY=75&descAlign=50&descColor=8b949e&descSize=16&animation=fadeIn)
 
 <br/>
 
-*I turn chaos into systems.*
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=14&duration=4000&pause=1000&color=888888&center=true&vCenter=true&width=500&lines=I+turn+chaos+into+systems.;I+don't+chase+technologies.+I+chase+problems.;The+technologies+usually+follow." alt="Typing SVG" />
 
 <br/><br/>
 
@@ -319,19 +309,11 @@ Surveying lattice-based, hash-based, and code-based cryptography within the NIST
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=laibaShahab&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&icon_color=666666&title_color=e6edf3&text_color=8b949e&count_private=true&include_all_commits=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=laibaShahab&show_icons=true&theme=default&bg_color=ffffff&border_color=d0d7de&icon_color=888888&title_color=1f2328&text_color=636c76&count_private=true&include_all_commits=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=laibaShahab&show_icons=true&theme=dark&bg_color=0d1117&border_color=30363d&icon_color=666666&title_color=e6edf3&text_color=8b949e&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-</picture>
+[![GitHub Streak](https://streak-stats.demolab.com?user=laibaShahab&theme=dark&background=0d1117&border=30363d&ring=8b949e&fire=8b949e&currStreakLabel=8b949e&sideLabels=8b949e&dates=555555&currStreakNum=e6edf3&sideNums=e6edf3)](https://github.com/laibaShahab)
 
-&nbsp;&nbsp;
+<br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=laibaShahab&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=8b949e&langs_count=6&hide=html,css" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=laibaShahab&layout=compact&theme=default&bg_color=ffffff&border_color=d0d7de&title_color=1f2328&text_color=636c76&langs_count=6&hide=html,css" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=laibaShahab&layout=compact&theme=dark&bg_color=0d1117&border_color=30363d&title_color=e6edf3&text_color=8b949e&langs_count=6&hide=html,css" alt="Top Languages" />
-</picture>
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=laibaShahab&bg_color=0d1117&color=8b949e&line=30363d&point=8b949e&area=true&area_color=21262d&hide_border=true)](https://github.com/laibaShahab)
 
 </div>
 
@@ -359,4 +341,7 @@ If you're building something hard and you want someone who will actually underst
 <br/>
 <sub><code>I don't chase technologies. I chase problems. The technologies usually follow.</code></sub>
 <br/><br/>
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=100&section=footer)
+
 </div>
