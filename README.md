@@ -16,9 +16,7 @@
 
 ---
 
-```
-$ man laiba
-```
+<img src="https://img.shields.io/badge/$-man%20laiba-58A6FF?style=flat-square&logoColor=white&labelColor=0d1117"/>
 
 ```
 LAIBA(1)                    General Commands Manual                   LAIBA(1)
@@ -51,9 +49,7 @@ LAIBA(1)                    General Commands Manual                   LAIBA(1)
 
 ---
 
-```
-$ neofetch
-```
+<img src="https://img.shields.io/badge/$-neofetch-A8FF78?style=flat-square&logoColor=white&labelColor=0d1117"/>
 
 <div align="center">
 <img src="./assets/neofetch.svg" alt="system information" width="100%"/>
@@ -61,9 +57,7 @@ $ neofetch
 
 ---
 
-```
-$ systemctl list-units --state=running
-```
+<img src="https://img.shields.io/badge/$-systemctl%20list--units%20--state%3Drunning-F0883E?style=flat-square&logoColor=white&labelColor=0d1117"/>
 
 ```
 ● delivero.service     white-label delivery platform        active (running)
@@ -72,33 +66,40 @@ $ systemctl list-units --state=running
 ```
 
 <details>
-<summary><code>→ delivero</code></summary>
+<summary><img src="https://img.shields.io/badge/→-delivero.service-1f883d?style=flat-square&labelColor=0d1117"/> &nbsp; <code>white-label delivery platform · FastAPI · PostgreSQL · Redis · Socket.IO · Docker</code></summary>
+<br/>
 
-Multi-tenant · 5 user roles · web + Android + iOS  
-40+ REST APIs · 10+ Socket.IO events · full order lifecycle  
-`fastapi · postgresql · redis · socket.io · docker`
+Multi-tenant · 5 user roles · web + Android + iOS
+40+ REST APIs · 10+ Socket.IO events · full order lifecycle from POS to completion
+
+<img src="https://skillicons.dev/icons?i=fastapi,postgres,redis,docker,firebase&theme=dark"/>
+
 </details>
 
 <details>
-<summary><code>→ cadie</code></summary>
+<summary><img src="https://img.shields.io/badge/→-cadie.service-1f883d?style=flat-square&labelColor=0d1117"/> &nbsp; <code>enterprise AI risk intelligence · Bedrock · Aurora+pgvector · ECS · SQS</code></summary>
+<br/>
 
-RAG pipelines + multi-agent workflows on AWS Bedrock  
-Aurora PostgreSQL + pgvector · ECS · SQS + EventBridge · Cognito  
-`fastapi · aurora · pgvector · bedrock · ecs · sqs`
+RAG pipelines + multi-agent workflows on AWS Bedrock · Aurora PostgreSQL + pgvector
+ECS deployment · SQS + EventBridge · Cognito tenant isolation
+
+<img src="https://skillicons.dev/icons?i=fastapi,aws,postgres,docker&theme=dark"/>
+
 </details>
 
 <details>
-<summary><code>→ lexertia</code></summary>
+<summary><img src="https://img.shields.io/badge/→-lexertia.service-1f883d?style=flat-square&labelColor=0d1117"/> &nbsp; <code>enterprise legal AI · FastAPI · Cognito · real-time</code></summary>
+<br/>
 
-Report generation · motion drafting · production maintenance  
-`fastapi · cognito · real-time services`
+Report generation · motion drafting · production maintenance · on-call for real client issues
+
+<img src="https://skillicons.dev/icons?i=fastapi,aws&theme=dark"/>
+
 </details>
 
 ---
 
-```
-$ cat /proc/laiba/pipeline
-```
+<img src="https://img.shields.io/badge/$-cat%20/proc/laiba/pipeline-58A6FF?style=flat-square&logoColor=white&labelColor=0d1117"/>
 
 <div align="center">
 <img src="./assets/architecture.svg" alt="engineering pipeline" width="100%"/>
@@ -106,19 +107,27 @@ $ cat /proc/laiba/pipeline
 
 ---
 
-```
-$ lsmod
-```
+<img src="https://img.shields.io/badge/$-lsmod-A8FF78?style=flat-square&logoColor=white&labelColor=0d1117"/>
 
 <div align="center">
 <img src="./assets/brain.svg" alt="loaded modules" width="100%"/>
 </div>
 
+<br/>
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=py,ts,js,fastapi,django,flask&theme=dark&perline=6"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,docker,aws,nginx&theme=dark&perline=6"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,git,linux,githubactions&theme=dark&perline=6"/>
+<br/>
+<img src="https://skillicons.dev/icons?i=graphql,firebase,sklearn,pytorch,postman,vscode&theme=dark&perline=6"/>
+</div>
+
 ---
 
-```
-$ apt-cache show socketspec
-```
+<img src="https://img.shields.io/badge/$-apt--cache%20show%20socketspec-F0883E?style=flat-square&logoColor=white&labelColor=0d1117"/>
 
 ```
 Package:     socketspec
@@ -136,25 +145,33 @@ PyPI:        pypi.org/project/socketspec
 
 ---
 
-```
-$ ls projects/
-```
+<img src="https://img.shields.io/badge/$-ls%20projects/-58A6FF?style=flat-square&logoColor=white&labelColor=0d1117"/>
 
-```
-smartml/          no-code AutoML — upload dataset, get model + SHAP report
-                  fastapi · next.js · postgresql · aws · xgboost
-                  → smartml.tech
+<details>
+<summary><img src="https://img.shields.io/badge/→-smartml/-A8FF78?style=flat-square&labelColor=0d1117"/> &nbsp; <code>no-code AutoML platform · smartml.tech</code></summary>
+<br/>
 
-doctor-agent/     LangGraph agentic AI for scheduling + triage + RAG Q&A
-                  >90% intent accuracy · 8 interaction flows
-                  fastapi · langgraph · openai · faiss
-```
+Upload a dataset. Train models. Read SHAP explainability reports. No code required.
+5+ algorithms · automated hyperparameter tuning · deployed on AWS EC2 / S3 / RDS
+
+<img src="https://skillicons.dev/icons?i=py,fastapi,nextjs,postgres,mongodb,aws&theme=dark"/>
+
+</details>
+
+<details>
+<summary><img src="https://img.shields.io/badge/→-doctor--agent/-A8FF78?style=flat-square&labelColor=0d1117"/> &nbsp; <code>LangGraph agentic AI · scheduling · triage · RAG Q&A</code></summary>
+<br/>
+
+LangGraph agentic workflow over a FAISS vector store
+>90% intent accuracy across 8 patient interaction flows
+
+<img src="https://skillicons.dev/icons?i=py,fastapi,mongodb&theme=dark"/>
+
+</details>
 
 ---
 
-```
-$ cat /var/log/known_bugs.log
-```
+<img src="https://img.shields.io/badge/$-cat%20/var/log/known__bugs.log-FF6B6B?style=flat-square&logoColor=white&labelColor=0d1117"/>
 
 ```
   ✗  documentation.service starts before the ticket is filed
@@ -168,9 +185,7 @@ resolution: won't fix
 
 ---
 
-```
-$ journalctl --grep=SUCCESS
-```
+<img src="https://img.shields.io/badge/$-journalctl%20--grep%3DSUCCESS-A8FF78?style=flat-square&logoColor=white&labelColor=0d1117"/>
 
 ```
 [SUCCESS]  gold medal · rank #1 · cgpa 4.00/4.00
@@ -182,15 +197,11 @@ $ journalctl --grep=SUCCESS
 
 ---
 
-```
-$ grafana --dashboard=stats
-```
+<img src="https://img.shields.io/badge/$-grafana%20--dashboard%3Dstats-F0883E?style=flat-square&logoColor=white&labelColor=0d1117"/>
 
 <div align="center">
 
 <img src="https://github-stats-alpha.vercel.app/api?username=ByteCraftByLaiba&cc=0d1117&tc=58a6ff&ic=f0883e&bc=0d1117" height="160" alt="stats"/>
-&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ByteCraftByLaiba&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" height="160" alt="languages"/>
 
 <br/>
 
@@ -198,11 +209,11 @@ $ grafana --dashboard=stats
 
 </div>
 
+> **Note on top languages:** most public repos use Jupyter Notebook for data science coursework. Real production stack is Python + TypeScript — see skill icons above.
+
 ---
 
-```
-$ shutdown now
-```
+<img src="https://img.shields.io/badge/$-shutdown%20now-FF6B6B?style=flat-square&logoColor=white&labelColor=0d1117"/>
 
 ```
 Stopping backend.service............     [ done ]
