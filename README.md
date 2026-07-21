@@ -16,7 +16,31 @@
 
 <br/>
 
-## SYNOPSIS
+## FILESYSTEM
+
+```
+$ ssh laiba@github.com
+Authenticating...
+Welcome to /proc/laiba.
+Everything below is a file. Start anywhere.
+
+$ ls -la /home/laiba
+```
+
+- `drwxr-xr-x`  `about/`         → [man laiba](#man-page)
+- `drwxr-xr-x`  `architecture/`  → [system architecture](#system-architecture)
+- `drwxr-xr-x`  `brain/`         → [loaded modules](#loaded-modules)
+- `drwxr-xr-x`  `services/`      → [running services](#running-services)
+- `drwxr-xr-x`  `projects/`      → [project registry](#project-registry)
+- `drwxr-xr-x`  `opensource/`    → [open source](#open-source)
+- `drwxr-xr-x`  `research/`      → [research](#research)
+- `drwxr-xr-x`  `logs/`          → [system logs](#system-logs)
+- `-rw-r--r--`  `achievements`   → [achievements](#achievements)
+- `-rw-r--r--`  `contact`        → [connect](#connect)
+
+<br/>
+
+## SYSTEM INFORMATION
 
 ```
 $ neofetch
@@ -28,17 +52,47 @@ $ neofetch
 
 <br/>
 
-## DESCRIPTION
+## MAN PAGE
 
 ```
-$ whoami
+$ man laiba
 ```
 
-Every project I join follows the same pattern. I ask a few too many questions in the first week. An architecture diagram appears that nobody explicitly asked for. Documentation shows up next to the code instead of after it, or instead of never. By the second week, the diagram is the thing the team points to in stand-up.
+```
+LAIBA(1)                    General Commands Manual                   LAIBA(1)
 
-I don't set out to do this. It's just what happens when I try to understand a system well enough to change it safely.
+NAME
+       laiba — backend and AI systems engineer
 
-I'm a backend and AI systems engineer working across FastAPI, PostgreSQL, and AWS, currently building production services for a delivery platform, an AI risk intelligence platform, and a legal AI product. I also maintain an open source WebSocket framework and read more RFC-style writing than is strictly necessary for the job.
+SYNOPSIS
+       laiba [--backend] [--ai] [--architecture] [--linux]
+
+DESCRIPTION
+       Every project she joins follows the same pattern. A few too many
+       questions in the first week. An architecture diagram appears that
+       nobody explicitly asked for. Documentation shows up next to the
+       code instead of after it, or instead of never. By week two, the
+       diagram is the thing the team points to in stand-up.
+
+       This is not a strategy. It is what happens when she tries to
+       understand a system well enough to change it safely.
+
+       Currently building production services for a delivery platform,
+       an AI risk intelligence platform, and a legal AI product. Also
+       maintains an open source WebSocket framework and reads more
+       RFC-style writing than the job strictly requires.
+
+OPTIONS
+       --backend        fastapi, postgresql, redis, distributed systems
+       --ai             rag, agentic workflows, bedrock, langgraph
+       --architecture   diagrams before decisions, docs before requests
+       --linux          daily driver, not a personality trait
+
+EXIT STATUS
+       0   ships, documents, moves to the next problem
+
+LAIBA(1)                                                               LAIBA(1)
+```
 
 ```
 $ cat ~/.identity
@@ -64,10 +118,10 @@ $ cat /proc/laiba/pipeline
 
 <br/>
 
-## LSMOD — LOADED MODULES
+## LOADED MODULES
 
 ```
-$ cat /proc/laiba/brain
+$ lsmod && cat /proc/laiba/brain
 ```
 
 <div align="center">
