@@ -131,9 +131,9 @@ PyPI:        pypi.org/project/socketspec
              Because no one should reinvent WebSocket auth a third time.
 ```
 
-[![GitHub](https://img.shields.io/badge/source-socketspec-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/laibaShahab/socketspec)
+[![GitHub](https://img.shields.io/badge/source-socketspec-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/ByteCraftByLaiba/socketspec)
 [![PyPI](https://img.shields.io/badge/PyPI-socketspec-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/socketspec)
-[![Apache](https://img.shields.io/badge/license-Apache--2.0-D9534F?style=flat-square)](https://github.com/laibaShahab/socketspec/blob/main/LICENSE)
+[![Apache](https://img.shields.io/badge/license-Apache--2.0-D9534F?style=flat-square)](https://github.com/ByteCraftByLaiba/socketspec/blob/main/LICENSE)
 
 ---
 
@@ -189,13 +189,13 @@ $ grafana --dashboard=stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=laibaShahab&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=f0883e&text_color=c9d1d9" height="160" alt="stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=ByteCraftByLaiba&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=f0883e&text_color=c9d1d9&cache_seconds=86400" height="160" alt="stats"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=laibaShahab&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="160" alt="languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ByteCraftByLaiba&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&cache_seconds=86400" height="160" alt="languages"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.demolab.com?user=laibaShahab&hide_border=true&background=0D1117&ring=58A6FF&fire=F0883E&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=C9D1D9&sideNums=C9D1D9&currStreakNum=58A6FF" height="160" alt="streak"/>
+<img src="https://streak-stats.demolab.com?user=ByteCraftByLaiba&hide_border=true&background=0D1117&ring=58A6FF&fire=F0883E&currStreakLabel=58A6FF&sideLabels=C9D1D9&dates=C9D1D9&sideNums=C9D1D9&currStreakNum=58A6FF" height="160" alt="streak"/>
 
 </div>
 
@@ -222,7 +222,7 @@ Broadcast: System going down NOW
 
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:its.laiba.shahab@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/laiba-shahab)
-[![GitHub](https://img.shields.io/badge/GitHub-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/laibaShahab)
+[![GitHub](https://img.shields.io/badge/GitHub-24292e?style=flat-square&logo=github&logoColor=white)](https://github.com/ByteCraftByLaiba)
 
 <sub>LAIBA(1) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; General Commands Manual &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LAIBA(1)</sub>
 
