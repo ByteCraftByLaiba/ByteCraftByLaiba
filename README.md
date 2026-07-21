@@ -1,4 +1,3 @@
-
 <div align="center">
 <img src="./assets/header.svg" alt="laiba(1) — General Commands Manual" width="100%"/>
 </div>
@@ -189,9 +188,9 @@ $ grafana --dashboard=stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ByteCraftByLaiba&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=f0883e&text_color=c9d1d9&cache_seconds=86400" height="160" alt="stats"/>
+<img src="https://github-stats-alpha.vercel.app/api?username=ByteCraftByLaiba&cc=0d1117&tc=58a6ff&ic=f0883e&bc=0d1117" height="160" alt="stats"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ByteCraftByLaiba&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&cache_seconds=86400" height="160" alt="languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ByteCraftByLaiba&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" height="160" alt="languages"/>
 
 <br/>
 
