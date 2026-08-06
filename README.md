@@ -16,7 +16,33 @@ guest@laiba:~$ whoami
 
 ```text
 Backend & AI Systems Engineer
-Gold Medalist, CS · CGPA 4.00/4.00 · Google APAC Scholar '24
+Gold Medalist, CS  ·  CGPA 4.00/4.00  ·  Google APAC Scholar '24
+```
+
+---
+
+```bash
+guest@laiba:~$ neofetch
+```
+
+<div align="center">
+
+<img src="./assets/neofetch.svg" width="100%" alt="neofetch"/>
+
+</div>
+
+---
+
+```bash
+guest@laiba:~$ htop
+```
+
+```text
+CPU (problem solving)     ██████████████████████░░░░░░  72%
+Coffee                    █████████████████████████████ 100%
+Documentation             █████████████████████████████ 100%
+Architecture              █████████████████████████████ 100%
+Meetings                  ███░░░░░░░░░░░░░░░░░░░░░░░░░░░   9%
 ```
 
 ---
@@ -26,12 +52,12 @@ guest@laiba:~$ systemctl --state=running
 ```
 
 ```text
-UNIT                          DESCRIPTION
-delivery-platform.service     White-label logistics backend
-enterprise-ai.service         Multi-tenant AI risk platform
-legal-ai.service              Enterprise legal AI backend
+  UNIT                          STATUS    DESCRIPTION
+● delivery-platform.service     active    White-label logistics backend
+● enterprise-ai.service         active    Multi-tenant AI risk platform
+● legal-ai.service              active    Enterprise legal AI backend
 
-3 loaded · 0 failed
+  3 loaded · 0 failed
 ```
 
 ---
@@ -48,6 +74,20 @@ brain/
 ├── cloud/          → aws, docker, ecs, eventbridge, sqs
 ├── databases/      → postgres, redis, mongodb, pgvector
 └── curiosity/      → unlimited
+```
+
+---
+
+```bash
+guest@laiba:~$ cat ~/achievements.log
+```
+
+```text
+[✔] Gold Medalist — Department of Computer Science
+[✔] Rank #1 — CGPA 4.00 / 4.00
+[✔] Google APAC Generation Scholar 2024
+[✔] Employee of the Quarter — Ibtidah Solutions
+[✔] Production systems deployed — still running
 ```
 
 ---
@@ -94,11 +134,20 @@ guest@laiba:~$ ./contact.sh
 
 ---
 
+```bash
+guest@laiba:~$ stats --live
+```
+
 <div align="center">
 
-<img src="https://github-streak-stats.herokuapp.com?user=ByteCraftByLaiba&theme=github-dark-blue&hide_border=true" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api?username=ByteCraftByLaiba&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF" height="170"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ByteCraftByLaiba&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58A6FF" height="170"/>
 
 <br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=ByteCraftByLaiba&theme=dark&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF" height="170"/>
+
+<br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=ByteCraftByLaiba&bg_color=0d1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true"/>
 
