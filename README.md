@@ -65,12 +65,6 @@ PID     SERVICE                     STATUS
 ---
 
 ```bash
-guest@laiba:~$
-```
-
----
-
-```bash
 guest@laiba:~$ systemctl --type=service --state=running
 ```
 
