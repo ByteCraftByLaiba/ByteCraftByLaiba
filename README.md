@@ -50,24 +50,6 @@ guest@laiba:~$ neofetch
 ---
 
 ```bash
-guest@laiba:~$ uname -a
-```
-
-```text
-Laiba Runtime 22.0
-
-Kernel          Curiosity
-Architecture    Backend
-Shell           /bin/python
-Editor          VS Code
-Package Manager pip
-Documentation   Enabled
-Architecture    Enabled
-Coffee          Required
-```
----
-
-```bash
 guest@laiba:~$ ps aux
 ```
 
