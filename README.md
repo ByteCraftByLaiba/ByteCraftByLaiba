@@ -4,162 +4,51 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=750&lines=Building+backend+systems...;Turning+chaos+into+structure...;Architecture+before+implementation...;Documentation+is+part+of+the+engineering.;There+has+to+be+a+better+way." />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=750&lines=Building+backend+systems...;Turning+chaos+into+structure...;Architecture+before+implementation...;There+has+to+be+a+better+way." />
 
 </div>
 
 ---
 
 ```bash
-$ ssh guest@laiba.dev
+guest@laiba:~$ whoami
 ```
 
 ```text
-The authenticity of host 'laiba.dev' can't be established.
-
-ED25519 key fingerprint is:
-SHA256:backend-ai-systems-documentation-diagrams
-
-Are you sure you want to continue connecting (yes/no)?
-```
-
-```text
-yes
-
-Authenticating...
-
-✔ Connected.
-
-Welcome to Laiba Runtime v22.0 LTS
-
-Last login: just now
+Backend & AI Systems Engineer
+Gold Medalist, CS · CGPA 4.00/4.00 · Google APAC Scholar '24
 ```
 
 ---
 
 ```bash
-guest@laiba:~$ neofetch
-```
-
-<div align="center">
-
-<img src="./assets/neofetch.svg" width="100%" alt="neofetch"/>
-
-</div>
-
----
-
-```bash
-guest@laiba:~$ ps aux
+guest@laiba:~$ systemctl --state=running
 ```
 
 ```text
-PID     SERVICE                     STATUS
+UNIT                          DESCRIPTION
+delivery-platform.service     White-label logistics backend
+enterprise-ai.service         Multi-tenant AI risk platform
+legal-ai.service              Enterprise legal AI backend
 
-101     backend.service             running
-102     ai.service                  running
-103     architecture.service        always running
-104     documentation.service       started before the ticket existed
+3 loaded · 0 failed
 ```
 
 ---
 
 ```bash
-guest@laiba:~$ systemctl --type=service --state=running
+guest@laiba:~$ tree ~/brain -L 2
 ```
 
 ```text
-UNIT                             LOAD      ACTIVE     DESCRIPTION
-
-delivery-platform.service        loaded    active     White-label logistics backend
-enterprise-ai.service            loaded    active     Multi-tenant AI risk platform
-legal-ai.service                 loaded    active     Enterprise legal AI backend
-
-3 loaded units
-0 failed
+brain/
+├── architecture/   → diagrams, ERDs, API design
+├── backend/        → fastapi, async-python, auth, websockets
+├── ai/             → rag, langgraph, bedrock, vector-search
+├── cloud/          → aws, docker, ecs, eventbridge, sqs
+├── databases/      → postgres, redis, mongodb, pgvector
+└── curiosity/      → unlimited
 ```
-
----
-
-```bash
-guest@laiba:~$ tree ~/brain
-```
-
-```text
-brain
-├── architecture/
-│   ├── sequence-diagrams
-│   ├── deployment-diagrams
-│   ├── erd
-│   └── api-design
-│
-├── backend/
-│   ├── fastapi
-│   ├── async-python
-│   ├── authentication
-│   ├── authorization
-│   ├── websocket
-│   └── distributed-systems
-│
-├── ai/
-│   ├── rag
-│   ├── langgraph
-│   ├── bedrock
-│   ├── vector-search
-│   └── llm-evaluation
-│
-├── cloud/
-│   ├── aws
-│   ├── docker
-│   ├── ecs
-│   ├── eventbridge
-│   └── sqs
-│
-├── databases/
-│   ├── postgres
-│   ├── redis
-│   ├── mongodb
-│   └── pgvector
-│
-└── curiosity/
-    └── unlimited
-```
-
----
-
-```bash
-guest@laiba:~$ htop
-```
-
-<div align="center">
-
-```text
-CPU
-
-██████████████████████░░░░░░░ 72%
-
-Current Task
-
-███████████████████████████░░ 91%
-
-Coffee
-
-█████████████████████████████ 100%
-
-Documentation
-
-█████████████████████████████ 100%
-
-Architecture
-
-█████████████████████████████ 100%
-
-Meetings
-
-███░░░░░░░░░░░░░░░░░░░░░░░░░░ 9%
-```
-
-</div>
 
 ---
 
@@ -169,74 +58,30 @@ guest@laiba:~$ skills --grouped
 
 <div align="center">
 
-### Languages
-
+**Languages** <br/>
 <img src="https://skillicons.dev/icons?i=py,ts,js,cpp&theme=dark"/>
 
-### Backend
-
+**Backend** <br/>
 <img src="https://skillicons.dev/icons?i=fastapi,django,flask,nodejs&theme=dark"/>
 
-### AI
-
+**AI** <br/>
 <img src="https://skillicons.dev/icons?i=pytorch,sklearn&theme=dark"/>
 
-### Cloud
-
+**Cloud** <br/>
 <img src="https://skillicons.dev/icons?i=aws,docker,linux,nginx&theme=dark"/>
 
-### Database
-
+**Database** <br/>
 <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&theme=dark"/>
 
-### Frontend (Enough to be dangerous)
-
+**Frontend** *(enough to be dangerous)* <br/>
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark"/>
 
 </div>
 
 ---
 
----
-
 ```bash
-guest@laiba:~$ achievements
-```
-
-```text
-Loading accomplishments...
-
-[SUCCESS] Gold Medalist
-          Department of Computer Science
-
-[SUCCESS] Rank #1
-          CGPA 4.00 / 4.00
-
-[SUCCESS] Google APAC Generation Scholar 2024
-          Selected among the top women across Asia-Pacific
-
-[SUCCESS] Employee of the Quarter
-          First quarter at Ibtidah Solutions
-
-[SUCCESS] Production systems deployed
-          Still running.
-
-Done.
-```
-
----
-
-```bash
-guest@laiba:~$ contact
-```
-
-```text
-Interested in backend engineering,
-AI systems,
-distributed systems,
-or just want to nerd out about architecture?
-
-Let's talk.
+guest@laiba:~$ ./contact.sh
 ```
 
 <div align="center">
@@ -262,33 +107,16 @@ Let's talk.
 ---
 
 ```bash
-guest@laiba:~$ exit
+guest@laiba:~$ shutdown -h now
 ```
 
 ```text
-Saving architecture diagrams...           done
-
-Saving documentation...                   already saved
-
-Stopping backend.service...               done
-
-Stopping ai.service...                    done
-
-Stopping curiosity.service...             impossible
-
-Broadcast message:
-
-    "There has to be a better way."
-
+Stopping curiosity.service...   failed (unstoppable)
 Connection to laiba.dev closed.
-
-logout
 ```
 
 <div align="center">
 
-### Thanks for stopping by.
-
-⭐ If you found something interesting, feel free to explore the repositories.
+⭐ **Thanks for stopping by — feel free to explore the repos.**
 
 </div>
